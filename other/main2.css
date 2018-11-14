@@ -5,6 +5,15 @@ header {
   text-align: center;
 }
 
+ {
+      margin-top: 0;
+      position: static;
+      margin: 0 auto;
+      -webkit-transform: none;
+      -ms-transform: none;
+      transform: none;
+  }
+
 h1 {
   color: hsla(0, 0%, 100%, 0.9);
   font-weight: bold;
@@ -39,10 +48,6 @@ footer.mdl-mini-footer {
 footer.mdl-mini-footer > ul {
   margin: auto;
   font-size: 2rem;
-}
-
-body {
-  padding-bottom: 5rem;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,0 +1,429 @@
+html {
+  height: 1612.71px;
+  width: 1440px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(to bottom right, #b70042 0%, #570046 29%, #3e0043 56%, #1f0040 65%, #000000 100%);
+}
+
+body {
+  font-family: 'San Francisco Display Light', sans-serif;
+  line-height: 1.9;
+  font-weight: 100;
+  color: black;
+  float: left;
+}
+
+/* Logo */
+
+.logo {
+  float: left;
+  position: relative;
+  display: inline-flex;
+  margin-left: 91px;
+  margin-top: 68px;
+}
+
+/* Navigation */
+
+.nav a {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 12px;
+  letter-spacing: 7px;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.nav ul {
+  display: block;
+  float: right;
+  margin: 68px 91px 0 450px;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 14px 14px;
+  text-align: right;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.dropdown {
+  visibility: hidden;
+}
+
+/* Phone Navigation */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  html {
+    height: 811.53px;
+    width: 375.3px;
+    background-repeat: no-repeat;
+  }
+  .nav {
+    visibility: hidden;
+  }
+  .logo {
+    float: none;
+  }
+  .dropdown {
+    visibility: visible;
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Intro Section */
+
+.sslogo {
+  z-index: 1;
+  margin-left: 380px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.ss-intro-text {
+  text-align: center;
+  line-height: 45.7px;
+  letter-spacing: 2px;
+  width: 100%;
+  color: white;
+  font-size: 26px;
+  font-weight: 100;
+}
+
+.button1 {
+  z-index: 1;
+  position: absolute;
+  width: 293px;
+  margin-left: 537px;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 8px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+  white-space: nowrap;
+}
+.prototypebutton{
+    color: white;
+    margin-bottom: 106px;
+}
+
+.sscomputer {
+  z-index: 1;
+  position: absolute;
+}
+
+.computerimage {
+    margin-left: 128px;
+    margin-top: 20px;
+}
+
+/* ROLES / DELIVERABLES / DURATION / TOOLS */
+
+#roles-etc {
+  background-color: #000000;
+  width: 1440px;
+  height: 570px;
+  margin-left: -8px;
+  margin-top: 80px;
+  color: white;
+}
+
+.roles {
+  font-size: 29px;
+  font-family: 'San Francisco Display Light', sans-serif;
+  font-weight: 100;
+  margin-left: 98px;
+  list-style-type: none;
+  color: white;
+}
+
+.roles-list {
+  font-size: 20px;
+  font-family: 'San Francisco Display Light', sans-serif;
+  font-weight: 100px;
+  margin-left: 60px;
+  line-height: 41px;
+  list-style-type: none;
+}
+
+.duration {
+  font-size: 29px;
+  font-family: 'San Francisco Display Light', sans-serif;
+  font-weight: 100;
+  margin-left: 98px;
+  list-style-type: none;
+  padding-top: 30px;
+  color: white;
+}
+
+.duration-list {
+  font-size: 20px;
+  font-family: 'San Francisco Display Light', sans-serif;
+  font-weight: 100px;
+  margin-left: 60px;
+  list-style-type: none;
+}
+
+.deliverables {
+  font-size: 29px;
+  font-family: 'San Francisco Display Light', sans-serif;
+  font-weight: 100;
+  margin-left: 98px;
+  list-style-type: none;
+  color: white;
+}
+
+.deliverables-list {
+  font-size: 20px;
+  font-family: 'San Francisco Display Light', sans-serif;
+  font-weight: 100px;
+  margin-left: 60px;
+  line-height: 41px;
+  list-style-type: none;
+}
+
+.tools {
+  font-size: 29px;
+  font-family: 'San Francisco Display Light', sans-serif;
+  font-weight: 100;
+  margin-left: 98px;
+  list-style-type: none;
+  color: white;
+}
+
+.tools-list {
+  font-size: 20px;
+  font-family: 'San Francisco Display Light', sans-serif;
+  font-weight: 100px;
+  margin-left: 60px;
+  line-height: 41px;
+  list-style-type: none;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  margin-top: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Problem & Solution */
+
+#whitesection {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 13083px;
+  margin-left: -10px;
+  margin-top: -25px;
+}
+
+.problemsection {
+  font-family: 'San Francisco Display Light', sans-serif;
+  font-weight: 100;
+  margin-left: 100px;
+  padding-top: 60px;
+  color: black;
+  list-style-type: none;
+}
+
+.problem {
+  font-size: 29px;
+  font-weight: 100;
+}
+
+.aboutproblem {
+  font-size: 20px;
+  font-weight: 20px;
+  width: 744px;
+}
+
+.solution {
+  padding-top: 50px;
+  font-size: 29px;
+  font-weight: 100;
+}
+
+.aboutsolution {
+  font-size: 20px;
+  font-weight: 100;
+  width: 744px;
+}
+
+/* RESEARCH & DISCOVERY */
+
+/* User Surveys */
+
+h3 {
+  font-size: 40px;
+  letter-spacing: 19px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: black;
+  text-align: center;
+}
+
+.heading1 {
+  margin-top: 129px;
+}
+
+h2 {
+  font-size: 29px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 100;
+  font-style: italic;
+  margin-left: 91px;
+}
+
+.usersurveys {
+  margin-top: 121.5px;
+  margin-left: 91px;
+}
+
+.aboutsurveys {
+  margin-top: 30px;
+  margin-left: 91px;
+  width: 744px;
+}
+
+.firstsurvey {
+  width: 432px;
+  margin-left: 91px;
+}
+
+.firstsurvey2 {
+  width: 432px;
+  margin-left: 91px;
+  margin-top: 79px;
+}
+
+.secondsurvey {
+  width: 432px;
+  margin-left: 91px;
+}
+
+.secondsurvey2 {
+  width: 432px;
+  margin-left: 91px;
+  margin-top: 79px;
+}
+
+.surveycolumn {
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.surveyrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.takeawayall {
+  margin-top: 125px;
+}
+
+.takeaways {
+  margin-left: 91px;
+  width: 755px;
+}
+
+.movesurv {
+  margin-left: 80px;
+}
+
+/* Competitive Analysis */
+
+.companalysis {
+  margin-top: 125px;
+  margin-left: 91px;
+}
+
+.aboutcomp {
+  margin-top: 30px;
+  margin-left: 91px;
+  width: 755px;
+  z-index: -1;
+}
+
+.compbutton {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
+  color: white;
+  width: 356px;
+  white-space: nowrap;
+}
+
+.button2 {
+  z-index: 1;
+  position: absolute;
+  width: 356px;
+  margin-left: 537px;
+  margin-top: -250px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+
+
+
+.compcontainer {
+  margin-top: 96px;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
