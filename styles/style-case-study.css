@@ -1,3 +1,12 @@
+
+
+
+
+/* doc settings */
+
+
+
+
 *, *:before, *:after {
   padding: 0;
   margin: 0;
@@ -9,16 +18,13 @@ html {
   font-size: 10px;
 }
 
-.container {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 100vw;
-}
 
-.firstsection {
-  margin-left: 71px;
-  margin-right: 71px;
-}
+
+
+/* set basics */
+
+
+
 
 body {
   font-family: 'San Francisco Display Light', sans-serif;
@@ -27,14 +33,15 @@ body {
   background-color: #ffffff;
 }
 
-#section-intro {
+h1 {
+  text-align: center;
+  line-height: 45.7px;
+  letter-spacing: 2px;
+  color: white;
+  width: 90%;
+  font-size: 2.6rem;
+  font-weight: 100;
   padding-bottom: 6rem;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background: linear-gradient(to bottom right, #b70042 0%, #570046 29%, #3e0043 56%, #1f0040 65%, #000000 100%);
 }
 
 h2 {
@@ -100,35 +107,49 @@ li {
   color: white;
 }
 
+
+
+
+/* set basics phone edit */
+
+
+
+
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  #section-intro {
-    padding-bottom: 14rem;
-  }
-  p {
-    font-size: 16px;
-    width: 84%;
+
+
+
+  h1 {
     line-height: 31px;
-    margin-right: -71px;
+    letter-spacing: 1px;
+    width: 90%;
+    margin-left: 21px;
+    font-size: 1.6rem;
+    padding-bottom: 0px;
   }
+
   h2 {
     font-size: 2.5rem;
     font-weight: 100;
     margin-top: 5.2rem;
     margin-bottom: 4rem;
   }
+
   h3 {
     font-size: 2.4rem;
     letter-spacing: 10px;
-    width: 100%;
+    width: 98%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     color: black;
     text-align: center;
-    margin-top: 20.6rem;
+    margin-top: 10.6rem;
     margin-bottom: 10.4rem;
     line-height: 56px;
     margin-left: -13px;
   }
+
   h4 {
     font-size: 1.9rem;
     font-weight: 100;
@@ -136,18 +157,80 @@ li {
     margin-top: 5.4rem;
     margin-bottom: 5.4rem;
   }
-  .rd {
-    width: 100vw;
+
+  p {
+    font-size: 16px;
+    width: 84%;
+    line-height: 31px;
+    margin-right: -71px;
   }
 }
 
-/* Logo */
+
+
+/* container */
+
+
+
+
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100vw;
+}
+
+
+
+
+
+
+/* section one */
+
+
+
+
+#section-intro {
+  padding-bottom: 6rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(to bottom right, #b70042 0%, #570046 29%, #3e0043 56%, #1f0040 65%, #000000 100%);
+}
+
+
+
+/* section phone edit */
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  #section-intro {
+    padding-bottom: 14rem;
+  }
+}
+
+
+
+
+/* Top Navigation */
+
+
+
+
+.navsection {
+  margin-left: 71px;
+  margin-right: 71px;
+}
+
 
 .logo {
   width: 55px;
 }
 
-/* Navigation */
 
 .navbar {
   height: 120px;
@@ -190,15 +273,24 @@ nav ul li {
   display: none;
 }
 
-/* Top Navigation */
+
+
+
+/* Top Navigation under 1024px*/
+
+
+
 
 @media only screen and (max-width: 1024px) {
+
   .nav {
     display: none;
   }
+
   .dropdown {
     display: block;
   }
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -212,6 +304,7 @@ nav ul li {
     min-width: 160px;
     z-index: 1;
   }
+
   .dropdown-content a {
     float: none;
     padding: 12px 16px;
@@ -221,24 +314,38 @@ nav ul li {
   }
 }
 
+
+
+
+/* Top Navigation phone edit*/
+
+
+
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  .firstsection {
+
+  .navsection {
     margin-left: 41px;
     margin-right: 41px;
   }
+
   .navbar {
     align-items: center;
   }
+
   .nav {
     display: none;
   }
+
   .logo {
     float: none;
     width: 50px;
   }
+
   .dropdown {
     visibility: visible;
   }
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -252,6 +359,7 @@ nav ul li {
     min-width: 160px;
     z-index: 1;
   }
+
   .dropdown-content a {
     float: none;
     padding: 12px 16px;
@@ -261,7 +369,13 @@ nav ul li {
   }
 }
 
+
+
+
 /* Intro Section */
+
+
+
 
 .ss-intro {
   margin-left: 71px;
@@ -287,17 +401,6 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-h1 {
-  text-align: center;
-  line-height: 45.7px;
-  letter-spacing: 2px;
-  color: white;
-  width: 90%;
-  font-size: 2.6rem;
-  font-weight: 100;
-  padding-bottom: 6rem;
 }
 
 .prototypebutton {
@@ -341,14 +444,7 @@ h1 {
     min-width: 20rem;
     max-width: 60rem;
   }
-  h1 {
-    line-height: 31px;
-    letter-spacing: 1px;
-    width: 90%;
-    margin-left: 21px;
-    font-size: 1.6rem;
-    padding-bottom: 0px;
-  }
+
   .sscomputer {
     min-width: 30rem;
     margin-top: 2rem;
@@ -360,11 +456,18 @@ h1 {
   .movebutton {
     position: absolute;
     margin-top: 24rem;
-    margin-left: -4rem;
+    margin-left: -3.5rem;
   }
 }
 
+
+
+
 /* ROLES / DELIVERABLES / DURATION / TOOLS */
+
+
+
+
 
 #roles-etc {
   background-color: black;
@@ -375,15 +478,26 @@ h1 {
 
 .row {
   margin-left: 71px;
+  margin-right: -71px;
 }
 
 .column {
   float: left;
   width: 33.3%;
+
 }
 
 .titlelist {
   margin-top: 50px;
+}
+
+.titlelist2 {
+  margin-top: 50px;
+  margin-left: -3rem;
+}
+
+.list2 {
+  margin-left: -3rem;
 }
 
 .row:after {
@@ -392,34 +506,111 @@ h1 {
   clear: both;
 }
 
-@media only screen and (max-width: 780px) {
+.vl {
+    border-left: 1px solid white;
+    height: 400px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 50px;
+    z-index: 3;
+}
+
+.vl2 {
+    border-left: 1px solid white;
+    height: 400px;
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 50px;
+    z-index: 3;
+}
+
+
+
+
+/* ROLES / DELIVERABLES / DURATION / TOOLS
+            under 820px */
+
+
+
+
+@media only screen and (max-width: 820px) {
+
   .column {
     width: 50%;
   }
+
+  .row {
+    margin-right: 71px;
+  }
+
+  .titlelist2 {
+    margin-left: 0px;
+  }
+
+  .list2 {
+    margin-left: 0px;
+  }
+
+  .column li {
+    font-size: 18px;
+  }
+
+  .vl {
+    margin-left: 34%;
+    max-height: 860px;
+    min-height: 800px;
+  }
+
+  .vl2 {
+    display: none;
+  }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+/* ROLES / DELIVERABLES / DURATION / TOOLS
+            phone edit */
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+
   .row {
-    margin-left: 51px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
+
   .column {
     float: left;
-    width: 80%;
+    width: 100%;
   }
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
+
   h5 {
     text-align: center;
   }
+
   li {
     text-align: center;
   }
+
+  .vl {
+    display: none
+  }
 }
 
-/* White Section */
+
+
+
+/* Big White Section */
+
+
+
 
 #part1 {
   margin-left: 71px;
@@ -427,16 +618,43 @@ h1 {
   padding-bottom: 6rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  #part1 {
-    margin-left: 41px;
-    margin: right 41px;
-  }
+.dl {
+  display: none;
 }
 
 
 
+
+/* Big White Section phone edit */
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  #part1 {
+    margin-left: 41px;
+    margin: right 41px;
+  }
+
+  .dl {
+    display: block;
+    border: 1px solid black;
+    width: 85%;
+    transform: rotate(-25deg);
+    margin-top: 10rem;
+  }
+
+}
+
+
+
+/* RESEARCH & DISCOVERY */
+
 /* User Surveys */
+
+
+
 
 .surveyrow {
   width: 100%;
@@ -478,24 +696,39 @@ h1 {
   display: none;
 }
 
+
+
+
+/* User Surveys under 1000px*/
+
+
+
+
+
 @media only screen and (max-width: 1000px) {
+
   p {
     min-width: 75%;
   }
+
   .surveycolumn {
     float: left;
     width: 100%;
   }
+
   .surveytext {
     width: 70%;
   }
+
   .surveytext2 {
     width: 70%;
     margin-top: 45px;
   }
+
   .surveyimg {
     display: none;
   }
+
   .surveyphone {
     display: inline;
     width: 60%;
@@ -504,30 +737,45 @@ h1 {
   }
 }
 
+
+
+
 /* User Survey phone edits */
+
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .surveytext {
-    width: 75%;
+    width: 84%;
   }
+
   .surveytext2 {
-    width: 75%;
+    width: 84%;
     margin-top: 30px;
   }
+
   .surveyimg {
     display: none;
   }
+
   .surveyphone {
     display: inline;
     width: 90%;
     margin-top: 53px;
   }
+
   .keytakeaways {
     margin-top: 53px;
   }
 }
 
+
+
 /* Competitive Analysis */
+
+
+
 
 .compimg {
   position: static;
@@ -567,13 +815,25 @@ h1 {
   display: none;
 }
 
+
+
+/* Competitive Analysis under 860px */
+
+
+
+
 @media only screen and (max-width: 860px) {
   .button2 {
     margin-top: -30rem;
   }
 }
 
+
+
 /* Competitive Analysis phone edit */
+
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
@@ -582,9 +842,11 @@ h1 {
     margin-left: -41px;
     margin-right: -41px;
   }
+
   .compimg {
     display: none;
   }
+
   .compimgphone {
     display: block;
     position: static;
@@ -593,10 +855,12 @@ h1 {
     margin-top: -143px;
     margin-left: -41px;
   }
+
   .compbutton {
     font-size: 16;
     letter-spacing: 8px;
   }
+
   .button2 {
     text-align: center;
     margin-top: -8.5rem;
@@ -605,7 +869,13 @@ h1 {
   }
 }
 
+
+
+
 /* User Personas */
+
+
+
 
 .perstitle {
   margin-top: 73px;
@@ -620,12 +890,20 @@ h1 {
   display: none;
 }
 
+
+
+
 /* User Personas phone edit */
 
+
+
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
   .persimg {
     display: none;
   }
+
   .persphone {
     display: block;
   }
@@ -635,20 +913,28 @@ h1 {
     width: 100vw;
     margin-left: -41px;
   }
+
   .up1 {
     width: 100%;
     margin-top: 23px;
   }
+
   .up2 {
     width: 100%;
     margin-top: 53px;
   }
+
   .frustrations {
     margin-top: 23px;
   }
 }
 
+
+
+  /* INFORMATION ARCHITECTURE */
+
 /* User Stories & Flows */
+
 
 
 
@@ -656,7 +942,6 @@ h1 {
   z-index: -1;
   margin-top: -310px;
   width: 130%;
-
 }
 
 .button3 {
@@ -691,16 +976,24 @@ h1 {
   display: none;
 }
 
+
+
+
 /* User Stories & Flows phone edits */
+
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
   .flowimg {
     width: 200%;
   }
+
   .flowcontainer {
     display: none;
   }
+
   .phoneflowcontainer {
     display: block;
     position: relative;
@@ -708,18 +1001,20 @@ h1 {
     width: 100%;
     margin-top: -71.5rem;
   }
+
   .button3 {
     text-align: left;
     justify-content: flex-start;
     margin-top: -10rem;
     padding-bottom: 50px;
     margin-left: 0px;
-
   }
+
   .userbutton {
     font-size: 16;
     letter-spacing: 8px;
   }
+
   .button4 {
     text-align: left;
     justify-content: flex-start;
@@ -728,7 +1023,13 @@ h1 {
   }
 }
 
+
+
+
 /* Wireframes */
+
+
+
 
 .wirerow {
   display: -ms-flexbox;
@@ -775,12 +1076,27 @@ h1 {
   margin-left: -20px;
 }
 
+
+
+
+/* Wireframes under 800px*/
+
+
+
+
 @media screen and (max-width: 800px) {
 
   .wirecolumn {
     width: 100%;
   }
 }
+
+
+
+
+/* Wireframes phone edit*/
+
+
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -806,10 +1122,12 @@ h1 {
 
 
 
-
   /* VISUAL DESIGN */
 
 /* Branding & Identity */
+
+
+
 
 .pbranding {
   display: none;
@@ -927,14 +1245,12 @@ h1 {
   margin: .5vw;
   margin-top: 5rem;
   margin-right: 6rem;
-  margin-left: -1.5rem;
 }
 
 .stylizecolumn img {
   width: 100%;
   height: auto;
 }
-
 
 .marks {
   display: -ms-flexbox;
@@ -966,7 +1282,6 @@ h1 {
 
 .visualtitle2 {
   margin-top: -4rem;
-
 }
 
 .stylefont2 {
@@ -994,18 +1309,20 @@ h1 {
 }
 
 
+
+/* Branding & Identity under 1000px*/
+
+
+
+
 @media screen and (max-width: 1000px) {
 
   .stylize {
-    margin-top: 5rem;
-  }
-
-  .colors {
-    margin-left: -1.5rem;
+    margin-top: -4rem;
   }
 
   .fonts {
-    margin-left: 1.5rem;
+    margin-top: -4rem;
   }
 
   .stylizecolumn {
@@ -1014,8 +1331,16 @@ h1 {
 
   .markscolumn {
     width: 30%;
+    margin-top: -1rem;
   }
 }
+
+
+
+
+/* Branding & Identity under 800px*/
+
+
 
 
 @media screen and (max-width: 800px) {
@@ -1024,6 +1349,14 @@ h1 {
     width: 45%;
   }
 }
+
+
+
+
+/* Branding & Identity phone edit*/
+
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
@@ -1043,7 +1376,6 @@ h1 {
     z-index: 1;
     width: 80%;
     line-height: 37px;
-
   }
 
   .stylefont1 {
@@ -1065,7 +1397,6 @@ h1 {
   .phonebranding {
     display: block;
   }
-
 
   .ptest {
     width: 85%;
