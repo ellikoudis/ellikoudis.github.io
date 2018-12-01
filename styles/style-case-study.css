@@ -1326,12 +1326,12 @@ nav ul li {
 }
 
 .colors{
-  width: 90%;
+  width: 60%;
   height: auto;
 }
 
 .fonts{
-  width: 90%;
+  width: 60%;
   height: auto;
   margin-top: 2rem;
 }
@@ -1421,8 +1421,13 @@ nav ul li {
     width: 30%;
     margin-top: -1rem;
   }
-}
 
+  .markscolumn img {
+    width: 80%;
+    margin: 0px;
+
+  }
+}
 
 
 
@@ -1594,7 +1599,6 @@ nav ul li {
       margin-bottom: 11px;
       margin-top: 0px;
     }
-
   }
 
 
@@ -1626,6 +1630,9 @@ nav ul li {
 
 /* Test 1 */
 
+.test1 {
+  margin-bottom: 6rem;
+}
 
 .preftest1 {
   margin-left: -71px;
@@ -1633,7 +1640,6 @@ nav ul li {
 
 .bigcircle2img {
   margin-top: 2rem;
-  margin-bottom: 50px;
   width: 100%;
   max-width: 1200px;
   margin-left: -2px;
@@ -1666,7 +1672,6 @@ nav ul li {
   margin-right: 71px;
   align-items: flex-start;
   position: absolute;
-  margin-top: 2rem;
   margin-bottom: 10rem;
 }
 
@@ -1848,8 +1853,8 @@ nav ul li {
 
   .blackdiag {
     display: block;
-    margin-top: 64rem;
-    width: 120vw;
+    margin-top: 59rem;
+    width: 110vw;
   }
 
   .test1part1 {
@@ -1867,7 +1872,7 @@ nav ul li {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 435px) {
+@media only screen and (min-width: 320px) and (max-width: 405px) {
 
   .letter {
     color: black;
@@ -1879,87 +1884,60 @@ nav ul li {
 
 
 
-
 /* Test 2 */
 
 
 
 
-
-.preftest2 {
-  margin-left: -71px;
-  }
-
-.gradimg2 {
-  width: 100%;
-  max-width: 1200px;
-  position: static;
-  z-index: 0;
-}
-
-.preference2 {
-  width: 100vw;
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  display: -webkit-box;
-  display: flex;
-  align-items: flex-start;
+.test2 {
+  margin-top: 1rem;
+  margin-bottom: 6rem
 }
 
 .test2row {
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  display: -webkit-box;
-  display: flex;
   z-index: 1;
-  margin-left: 71px;
   margin-right: 71px;
-  align-items: flex-start;
-  position: absolute;
-  margin-top: 2rem;
+  position: relative;
   margin-bottom: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.test2column1 {
-  -webkit-box-flex: auto;
-  -ms-flex: auto;
-  flex: auto;
-  width: 30%;
-  margin: .5vw;
+.test2cell  {
+  width: 50%;
+  padding-right: 1rem;
 }
 
-.test2column1 img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+.test2cell img {
+  max-width: 100%;
+  display: block;
 }
 
-.test2column1 p {
-  margin-bottom: 30px;
+.test2row2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
 }
 
-.test2column2 {
-  -webkit-box-flex: auto;
-  -ms-flex: auto;
-  flex: auto;
-  width: 30%;
-  margin: .5vw;
+.test2cell2  {
+  width: 50%;
+  padding-right: 1rem;
 }
 
-.test2column2 img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+.test2cell2 img {
+  max-width: 100%;
+  display: block;
 }
 
-.test2column2 p {
-  margin-bottom: 30px;
+.gradimg2 {
+  position: absolute;
+  z-index: 0;
+  margin-top: 20rem;
+  width: 100vw;
+  margin-left: -71px;
 }
 
 .textblock2 {
@@ -1972,6 +1950,10 @@ nav ul li {
 }
 
 .percent2 {
+  margin-top: 3.5rem;
+}
+
+.percent3 {
   margin-top: 3.5rem;
 }
 
@@ -2006,7 +1988,6 @@ nav ul li {
 .test2part3 {
   width: 100%;
   text-align: center;
-  margin-top: 30px;
   margin-left: 1rem;
 }
 
@@ -2032,7 +2013,7 @@ nav ul li {
 }
 
 .letter3 {
-  color: black;
+  color: white;
 }
 
 .letter4 {
@@ -2054,7 +2035,7 @@ nav ul li {
 
 
 
-/* Test 1 under 620px*/
+/* Test 2 under 800px*/
 
 
 
@@ -2063,7 +2044,7 @@ nav ul li {
 
 
   .test2 {
-    margin-top: 117rem;
+    margin-top: 122rem;
   }
 
   .response2 {
@@ -2090,13 +2071,13 @@ nav ul li {
     margin-left: 0px;
   }
 
-  .test2column1 {
+  .test2cell {
     width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  .test2column2 {
+  .test2cell2 {
     width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -2104,19 +2085,25 @@ nav ul li {
 
   .letter2 {
     color: black;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
   }
 
   .letter3 {
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
+    color: black;
   }
+
+  .letter4 {
+    padding-bottom: 3rem;
+  }
+
 }
 
 
 
+/* Test 2 under 620px*/
 
 
-/* Test 1 under 620px*/
 
 
 
@@ -2132,6 +2119,11 @@ nav ul li {
 }
 
 
+
+/* Test 2 phone edit*/
+
+
+
 @media only screen and (max-width: 480px) {
 
   .test2 {
@@ -2143,6 +2135,7 @@ nav ul li {
 
   .test2row {
     margin-right: 41px;
+    margin-bottom: 0px;
   }
 
   .gradimg2 {
@@ -2197,9 +2190,11 @@ nav ul li {
 
   .blackdiag2 {
     display: block;
-    width: 120vw;
-    padding-left: -41px;
-    margin-top: 125rem;
+    width: 110vw;
+    margin-left: -41px;
+    position: static;
+    z-index: -1;
+    margin-top: -125rem;
   }
 
   .letter4 {
@@ -2207,17 +2202,189 @@ nav ul li {
   }
 
   .abouttest2 {
-    margin-top: 24rem;
+    margin-top: 30rem;
 }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 410px) {
+
+
+/* Test 2 adjust phone edit*/
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
 
   .blackdiag2 {
-    margin-top: 110rem;
+    margin-top: -115rem;
+  }
+
+  .letter4 {
+    color: black;
   }
 
   .abouttest2 {
-    margin-top: 19rem;
+    margin-top: 10rem;
+}
+}
+
+
+
+
+
+/* Test 3 */
+
+
+
+
+.test3 {
+  margin-bottom: 6rem;
+}
+
+
+.test3row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-right: 71px;
+}
+
+.cell  {
+  width: 33%;
+  padding-right: 1rem;
+}
+
+.cell img {
+  max-width: 100%;
+  display: block;
+}
+
+.textblock4 {
+  flex-wrap: wrap;
+  background-color: black;
+  width: 100%;
+  border-radius: 18px;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.percent4 {
+  margin-top: 3.5rem;
+}
+
+.test3part1 {
+  width: 100%;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.test3part2 {
+  color: white;
+  margin-top: 15px;
+  margin-left: 4.5rem;
+  width: 100%;
+}
+
+.response4 {
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+.blackdiag3 {
+  display: none;
+}
+
+
+
+
+/* Test 3 under 800px */
+
+
+@media only screen and (max-width: 800px) {
+
+  .cell  {
+    width: 100%;
+    margin-bottom: 4rem;
   }
+
+  .response4 {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+
+/* Test 3 under phone edit under 480px */
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+  .test3 {
+    margin-top: 40rem;
+  }
+
+  .response4 {
+    width: 75%;
+    margin-bottom: 2rem;
+  }
+
+  .test3row {
+    margin-right: -31px;
+  }
+
+  .blackdiag3 {
+    display: block;
+    width: 100vw;
+    margin-left: -41px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -55rem;
+  }
+
+  .textblock4 {
+    background: none;
+    margin-top: -4rem;
+  }
+
+  .test3part1 {
+    width: 100%;
+    text-align: left;
+    margin-top: 8px;
+    margin-left: 0px;
+  }
+
+  .test3part2 {
+    width: 100%;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: -10px;
+  }
+
+  .response4 {
+    width: 93%;
+  }
+
+  .mock2 {
+    margin-top: 20rem;
+  }
+}
+
+
+
+
+/* Test 3 under phone edit under 480px */
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+
+  .mock2 {
+    margin-top: 10rem;
+  }
+
 }
