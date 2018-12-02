@@ -2134,7 +2134,7 @@ nav ul li {
   }
 
   .test2row {
-    margin-right: 41px;
+    margin-right: 31px;
     margin-bottom: 0px;
   }
 
@@ -2333,7 +2333,7 @@ nav ul li {
   }
 
   .test3row {
-    margin-right: -31px;
+    margin-right: -41px;
   }
 
   .blackdiag3 {
@@ -2342,7 +2342,7 @@ nav ul li {
     margin-left: -41px;
     position: absolute;
     z-index: -1;
-    margin-top: -55rem;
+    margin-top: -54rem;
   }
 
   .textblock4 {
@@ -2367,16 +2367,144 @@ nav ul li {
   .response4 {
     width: 93%;
   }
-
-  .mock2 {
-    margin-top: 20rem;
-  }
 }
 
 
 
 
-/* Test 3 under phone edit under 480px */
+/* Hifi Mockups Round 2 */
+
+  .bigcirc4 {
+    width: 100vw;
+    margin-left: -71px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .mockups1 {
+    width: 91%;
+    position: static;
+    z-index: 1;
+  }
+
+  .mockups2 {
+    width: 91%;
+    margin-top: 10rem;
+  }
+
+  .mockups1-2 {
+    display: none;
+  }
+
+  .mockups2-2 {
+    display: none;
+  }
+
+  .mocktype {
+    margin-top: 8rem;
+  }
+
+  .mocktype2 {
+    margin-top: 8rem;
+  }
+
+  .mockbutton {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 8px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 3px;
+    color: black;
+    white-space: nowrap;
+  }
+
+  .button7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+    margin-top: 11rem;
+    margin-bottom: 13rem;
+  }
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+  .mockups1-2 {
+    display: block;
+    width: 91%;
+  }
+
+  .mockups2-2 {
+    display: block;
+    width: 91%;
+    margin-top: 10rem;
+  }
+
+
+  .mockups1 {
+    display: none;
+  }
+
+  .mockups2 {
+    display: none;
+  }
+}
+
+
+
+/* Mockups phone edit under 480px */
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+  .bigcirc4 {
+    display: none;
+  }
+
+  .mock2 {
+    margin-top: 20rem;
+  }
+
+  .mocktype {
+    margin-top: 6rem;
+  }
+
+  .mocktype2 {
+    margin-top: 6rem;
+  }
+
+  .mockups1-2 {
+    width: 86%;
+    margin-top: 6rem;
+  }
+
+  .mockups2-2 {
+    width: 86%;
+    margin-top: 6rem;
+  }
+
+  .mockbutton {
+    font-size: 16;
+    letter-spacing: 8px;
+  }
+
+  .button7 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+}
+
+
+/* Mockups phone edit under 400px */
 
 
 
@@ -2386,5 +2514,226 @@ nav ul li {
   .mock2 {
     margin-top: 10rem;
   }
+}
 
+
+
+
+/* PROTOTYPING */
+
+
+
+.prototype {
+  width: 100vw;
+  margin-left: -71px;
+  margin-top: 10rem;
+}
+
+.protobutton {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 8px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 3px;
+  color: black;
+  white-space: nowrap;
+}
+
+.button8 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: -20px;
+  margin-top: 8rem;
+  margin-bottom: 13rem;
+}
+
+
+
+/* PROTOTYPING phone edit */
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  .prototype {
+    width: 100vw;
+    margin-left: -41px;
+    margin-top: 5rem;
+  }
+
+  .protobutton {
+    font-size: 16;
+    letter-spacing: 8px;
+  }
+
+  .button8 {
+    margin-bottom: 0rem;
+  }
+}
+
+
+
+
+/* Conclusion */
+
+
+  #part2 {
+    padding-bottom: 6rem;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom right, #b70042 0%, #570046 29%, #3e0043 56%, #1f0040 65%, #000000 100%);
+  }
+
+  .finalsection {
+    margin-left: 71px;
+  }
+
+  .conctitle {
+    color: white;
+    padding-top: 10rem;
+  }
+
+  .movefinaltype {
+    display: flex;
+    margin-left: -71px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .finaltype {
+    color: white;
+    text-align: center;
+    width: 60%;
+    padding-bottom: 30rem;
+  }
+
+
+
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .finalsection {
+      margin-left: 41px;
+    }
+
+    .conctitle {
+      color: white;
+      padding-top: 4rem;
+      margin-bottom: 0px;
+    }
+
+    .movefinaltype {
+      display: block;
+      margin-left: 13px;
+    }
+
+    .finaltype {
+      margin-top: 6rem;
+      padding-bottom: 7rem;
+      width: 80%;
+    }
+}
+
+
+
+
+
+  /* Footer */
+
+  .footer {
+    height: 140px;
+    background: linear-gradient(to bottom right, #b70042 0%, #570046 65%, #1f0040 100%);
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .footer-content {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 71px;
+    margin-right: 71px;
+  }
+
+  .footerlogo{
+    float: left;
+    display: inline-block;
+    width: 61px;
+  }
+
+  .emailicon {
+    height: 31px;
+  }
+  .githubicon {
+    height: 31px;
+    padding-left: 10px;
+  }
+  .instaicon {
+    height: 31px;
+    padding-left: 10px;
+  }
+  .twittericon {
+    height: 31px;
+    padding-left: 10px;
+  }
+  .linkedinicon {
+    height: 31px;
+    padding-left: 10px;
+  }
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  .footer {
+    height: 74px;
+    position: static;
+    z-index: 3;
+  }
+
+  .footer-content {
+    height: 74px;
+    position: static;
+    z-index: 4;
+    margin-left: 41px;
+    margin-right: 41px;
+  }
+
+  .footerlogo{
+    width: 31px;
+  }
+
+  .emailicon {
+    height: 31px;
+  }
+  .githubicon {
+    height: 31px;
+    padding-left: 10px;
+  }
+  .instaicon {
+    height: 31px;
+    padding-left: 10px;
+  }
+  .twittericon {
+    height: 31px;
+    padding-left: 10px;
+  }
+  .linkedinicon {
+    height: 31px;
+    padding-left: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
 }
