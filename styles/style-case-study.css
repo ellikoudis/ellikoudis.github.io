@@ -622,6 +622,11 @@ nav ul li {
   display: none;
 }
 
+.hl {
+    display: block;
+    border: .5px solid black;
+    width: 100%;
+}
 
 
 
@@ -643,6 +648,10 @@ nav ul li {
     width: 85%;
     transform: rotate(-25deg);
     margin-top: 10rem;
+  }
+
+  .linerow {
+    display: none;
   }
 
 }
