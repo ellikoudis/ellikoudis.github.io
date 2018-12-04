@@ -486,7 +486,6 @@ nav ul li {
 .column {
   float: left;
   width: 33.3%;
-
 }
 
 .titlelist {
@@ -691,9 +690,9 @@ nav ul li {
 
 .surveyimg {
   margin-top: 6.2rem;
-  width: 40%;
-  min-width: 50rem;
-  max-width: 90rem;
+  width: 70%;
+  min-width: 45rem;
+  max-width: 180rem;
   margin-left: -18px;
 }
 
@@ -701,6 +700,14 @@ nav ul li {
   display: none;
 }
 
+.vl3 {
+    border-left: 1px solid black;
+    height: 135rem;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10rem;
+    z-index: 3;
+}
 
 
 
@@ -739,6 +746,10 @@ nav ul li {
     width: 60%;
     margin-top: 53px;
     max-width: 40rem;
+  }
+
+  .vl3 {
+    display: none;
   }
 }
 
