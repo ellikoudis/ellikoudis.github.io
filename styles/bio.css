@@ -259,6 +259,7 @@ nav ul li {
   .specialfont {
     font-size: 2.8rem;
     font-style: italic;
+    font-weight: 400;
   }
 
   .selfie {
@@ -284,7 +285,7 @@ nav ul li {
     margin-right: 71px;
   }
 
-  .contact {
+  .contactme {
     border-bottom: 1px solid #fff;
     padding-bottom: 3px;
     color: white;
@@ -351,7 +352,6 @@ nav ul li {
   .specialfont {
     font-size: 2rem;
     font-style: italic;
-    font-weight: 400;
   }
 
   .dl {
@@ -364,7 +364,7 @@ nav ul li {
     margin-left: 41px;
   }
 
-  .contact {
+  .contactme {
     font-size: 16px;
     letter-spacing: 8px;
   }
