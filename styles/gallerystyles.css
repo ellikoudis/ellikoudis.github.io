@@ -1,0 +1,734 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #ffffff;
+  min-width: 320px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 55px;
+  color: white;
+  letter-spacing: 40px;
+  width: 100%;
+}
+
+p {
+  line-height: 4.5rem;
+  font-size: 1.9rem;
+  font-weight: 100;
+  width: 61%;
+}
+
+
+
+/* Container */
+
+
+
+
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#section-intro {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(0.30turn, #0000aa 3.25%, #df0052 76%, #ff0026 100%);
+}
+
+.firstsection {
+  margin-left: 71px;
+  margin-right: 71px;
+}
+
+
+/* Logo */
+
+
+
+.logo {
+  width: 55px;
+}
+
+
+
+/* Navigation */
+
+
+
+.navbar {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 1.6rem;
+  letter-spacing: 7px;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+}
+
+.nav ul {
+  display: flex;
+  float: right;
+}
+
+.nav li {
+  display: inline-block;
+  padding-bottom: 14px;
+  text-align: right;
+  padding-left: 57px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.dropdown {
+  display: none;
+}
+
+
+
+
+/* Intro */
+
+
+
+
+.row {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  position: static;
+  z-index: 0;
+  margin-top: 10rem;
+  justify-content: center;
+  margin-left: -3rem;
+}
+
+.column {
+  width: 25%;
+}
+
+.secondcolumn {
+  margin-top: -16rem;
+  margin-left: 3rem;
+  width: 100%;
+}
+
+.dl {
+  display: block;
+  border: .5px solid white;
+  width: 80%;
+  transform: rotate(-45deg);
+  margin-top: 20rem;
+}
+
+
+
+/* Images */
+
+.pimages {
+  display: none;
+}
+
+.images {
+  margin-top: 17rem;
+  margin-right: -20px;
+}
+
+.imagerow {
+  z-index: 1;
+  position: relative;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cell  {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.cell img {
+  max-width: 100%;
+  display: block;
+}
+
+.imagerow2 {
+  z-index: 1;
+  position: relative;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cell2  {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.cell2 img {
+  max-width: 100%;
+  display: block;
+}
+
+.imagerow3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2rem;
+}
+
+.cell3  {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.cell3 img {
+  max-width: 100%;
+  display: block;
+}
+
+.imagerow4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.cell4  {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.cell4 img {
+  max-width: 100%;
+  display: block;
+}
+
+.imagerow5 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2rem;
+}
+
+.cell5  {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.cell5 img {
+  max-width: 100%;
+  display: block;
+}
+
+.imagerow6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2rem;
+}
+
+.cell6  {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.cell6 img {
+  max-width: 100%;
+  display: block;
+}
+
+.imagerow7 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 8rem;
+}
+
+.cell7  {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.cell7 img {
+  max-width: 100%;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+.footercontainer{
+  margin-left: 71px;
+  margin-right: 71px;
+}
+
+.footer {
+  height: 140px;
+  background: linear-gradient(to right, #b70042 0%, #570046 48%, #1f0040 100%);
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.footer-content {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 71px;
+  margin-right: 71px;
+}
+
+.footerlogo{
+  float: left;
+  display: inline-block;
+  width: 61px;
+}
+
+.emailicon {
+  height: 31px;
+}
+.githubicon {
+  height: 31px;
+  padding-left: 10px;
+}
+.instaicon {
+  height: 31px;
+  padding-left: 10px;
+}
+.twittericon {
+  height: 31px;
+  padding-left: 10px;
+}
+.linkedinicon {
+  height: 31px;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* edit screen max width 1024px */
+
+
+
+
+
+  @media only screen and (max-width: 1024px) {
+
+    .nav {
+      display: none;
+    }
+
+    /* Dropdown Button */
+
+    .dropbtn {
+      background-color: transparent;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: transparent;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:active {
+      background-color: #570046;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd}
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+
+
+
+
+    /* Intro (width under 1024px)*/
+
+
+
+    .row {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-right: 0px;
+      width: 110%;
+    }
+
+    .column {
+      width: 40%;
+    }
+
+    .firstcolumn {
+      margin-left: 10rem;
+      width: 50%;
+    }
+
+    .secondcolumn {
+      margin-left: 0rem;
+      width: 40%;
+    }
+
+    .thirdcolumn {
+      margin-left: -14rem;
+      margin-top: 5rem;
+    }
+
+
+
+
+  }
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+  /* Phone Navigation */
+
+
+
+  .firstsection {
+    margin-left: 41px;
+    margin-right: 41px;
+  }
+
+  .navbar {
+    align-items: center;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .logo {
+    float: none;
+    width: 50px;
+    margin-top:
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+.footer {
+  height: 74px;
+  position: static;
+  z-index: 3;
+}
+
+.footer-content {
+  height: 74px;
+  position: static;
+  z-index: 4;
+  margin-left: 41px;
+  margin-right: 41px;
+}
+
+.footerlogo{
+  width: 31px;
+}
+
+.emailicon {
+  height: 31px;
+}
+
+.githubicon {
+  height: 31px;
+  padding-left: 10px;
+}
+
+.instaicon {
+  height: 31px;
+  padding-left: 10px;
+}
+
+.twittericon {
+  height: 31px;
+  padding-left: 10px;
+}
+
+.linkedinicon {
+  height: 31px;
+  padding-left: 10px;
+}
+
+
+
+
+  /* Intro */
+
+
+h1 {
+  font-size: 31px;
+  letter-spacing: 13px;
+}
+
+.row {
+  margin-top: 4rem;
+  margin-left: -4rem;
+}
+
+.secondcolumn {
+  margin-left: 8rem;
+  margin-top: -18rem;
+  width: 60px;
+}
+
+.thirdcolumn {
+  margin-left: -3rem;
+  margin-top: 2rem;
+}
+
+
+
+/* Images */
+
+
+
+.pimages {
+  display: block;
+  margin-top: 8rem;
+}
+
+.pimages img{
+  width: 100%;
+  margin: 0px;
+}
+
+.images {
+  display: none;
+}
+
+.pimagerow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.pcell  {
+  width: 80%;
+}
+
+.pimagerow2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.pcell2  {
+  width: 80%;
+}
+
+.pimagerow3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.pcell3  {
+  width: 100%;
+}
+
+.pimagerow4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.pcell4  {
+  width: 100%;
+}
+
+.pimagerow5 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.pcell5  {
+  width: 100%;
+}
+
+.pimagerow6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.pcell6  {
+  width: 100%;
+}
+
+.pimagerow7 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.pcell7  {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+
+
+}

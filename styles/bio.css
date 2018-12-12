@@ -9,6 +9,12 @@ html {
   font-size: 10px;
 }
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #ffffff;
+  min-width: 320px;
+}
+
 .container {
   margin: 0 auto;
   overflow: hidden;
@@ -24,11 +30,6 @@ html {
 }
 
 .firstsection {
-  margin-left: 71px;
-  margin-right: 71px;
-}
-
-.footercontainer{
   margin-left: 71px;
   margin-right: 71px;
 }
@@ -57,12 +58,6 @@ h3 {
   line-height: 10rem;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  color: #ffffff;
-  min-width: 320px;
-}
-
 p {
   line-height: 4.5rem;
   font-size: 1.9rem;
@@ -71,35 +66,21 @@ p {
   margin-bottom: 5rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
 
-  h1 {
-    font-size: 50px;
-    letter-spacing: 30px;
-    line-height: 8rem;
-  }
-
-  p {
-    width: 80%;
-    font-size: 1.6rem;
-    margin-bottom: 3rem;
-  }
-
-  h3 {
-    font-size: 36px;
-    letter-spacing: 20px;
-    line-height: 8rem;
-    margin-top: 18rem;
-  }
-}
 
 /* Logo */
+
+
 
 .logo {
   width: 55px;
 }
 
+
+
 /* Navigation */
+
+
 
 .navbar {
   height: 120px;
@@ -141,87 +122,6 @@ nav ul li {
 
 .dropdown {
   display: none;
-}
-
-/* Top Navigation */
-
-@media only screen and (max-width: 1024px) {
-  .nav {
-    display: none;
-  }
-
-  .dropdown {
-    display: block;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    color: #ffffff;
-    font-weight: 100;
-    font-size: 12px;
-    letter-spacing: 7px;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
-    text-decoration: none;
-    min-width: 160px;
-    z-index: 1;
-  }
-  .dropdown-content a {
-    float: none;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-
-  .firstsection {
-    margin-left: 41px;
-    margin-right: 41px;
-  }
-
-  .navbar {
-    align-items: center;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  .logo {
-    float: none;
-    width: 50px;
-    margin-top:
-  }
-
-  .dropdown {
-    visibility: visible;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    color: #ffffff;
-    font-weight: 100;
-    font-size: 12px;
-    letter-spacing: 7px;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
-    text-decoration: none;
-    min-width: 160px;
-    z-index: 1;
-  }
-
-  .dropdown-content a {
-    float: none;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
 }
 
 
@@ -304,6 +204,106 @@ nav ul li {
     margin-bottom: 8rem;
   }
 
+
+
+
+/* Footer */
+
+
+
+.footercontainer{
+  margin-left: 71px;
+  margin-right: 71px;
+}
+
+.footer {
+  height: 140px;
+  background: linear-gradient(to right, #b70042 0%, #570046 48%, #1f0040 100%);
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.footer-content {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 71px;
+  margin-right: 71px;
+}
+
+.footerlogo{
+  float: left;
+  display: inline-block;
+  width: 61px;
+}
+
+.emailicon {
+  height: 31px;
+}
+
+.githubicon {
+  height: 31px;
+  padding-left: 10px;
+}
+
+.instaicon {
+  height: 31px;
+  padding-left: 10px;
+}
+
+.twittericon {
+  height: 31px;
+  padding-left: 10px;
+}
+
+.linkedinicon {
+  height: 31px;
+  padding-left: 10px;
+}
+
+
+
+
+/* Top Navigation */
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  .nav {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
 @media only screen and (max-width: 800px) {
 
   .moveselfie {
@@ -343,7 +343,88 @@ nav ul li {
 }
 
 
+
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+/* Base */
+
+
+  h1 {
+    font-size: 50px;
+    letter-spacing: 30px;
+    line-height: 8rem;
+  }
+
+  p {
+    width: 80%;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+
+  h3 {
+    font-size: 36px;
+    letter-spacing: 20px;
+    line-height: 8rem;
+    margin-top: 18rem;
+  }
+
+
+
+/* Navigation */
+
+
+
+  .firstsection {
+    margin-left: 41px;
+    margin-right: 41px;
+  }
+
+  .navbar {
+    align-items: center;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .logo {
+    float: none;
+    width: 50px;
+    margin-top:
+  }
+
+  .dropdown {
+    visibility: visible;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+
+  /* Big Section */
+
+
 
   .selfie2 {
     width: 100%;
@@ -373,97 +454,29 @@ nav ul li {
     margin-bottom: 10rem;
   }
 
-}
+
+
+  /* Footer */
 
 
 
 
+  .footer {
+    height: 74px;
+    position: static;
+    z-index: 3;
+  }
 
-/* Footer */
+  .footer-content {
+    height: 74px;
+    position: static;
+    z-index: 4;
+    margin-left: 41px;
+    margin-right: 41px;
+  }
 
+  .footerlogo{
+    width: 31px;
+  }
 
-
-.footer {
-  height: 140px;
-  background: linear-gradient(to right, #b70042 0%, #570046 48%, #1f0040 100%);
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-}
-
-.footer-content {
-  height: 140px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 71px;
-  margin-right: 71px;
-}
-
-.footerlogo{
-  float: left;
-  display: inline-block;
-  width: 61px;
-}
-
-.emailicon {
-  height: 31px;
-}
-.githubicon {
-  height: 31px;
-  padding-left: 10px;
-}
-.instaicon {
-  height: 31px;
-  padding-left: 10px;
-}
-.twittericon {
-  height: 31px;
-  padding-left: 10px;
-}
-.linkedinicon {
-  height: 31px;
-  padding-left: 10px;
-}
-
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-
-.footer {
-  height: 74px;
-  position: static;
-  z-index: 3;
-}
-
-.footer-content {
-  height: 74px;
-  position: static;
-  z-index: 4;
-  margin-left: 41px;
-  margin-right: 41px;
-}
-
-.footerlogo{
-  width: 31px;
-}
-
-.emailicon {
-  height: 31px;
-}
-.githubicon {
-  height: 31px;
-  padding-left: 10px;
-}
-.instaicon {
-  height: 31px;
-  padding-left: 10px;
-}
-.twittericon {
-  height: 31px;
-  padding-left: 10px;
-}
-.linkedinicon {
-  height: 31px;
-  padding-left: 10px;
-}
 }
