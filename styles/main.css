@@ -7,6 +7,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -195,13 +196,34 @@ nav ul li {
   margin-top: -54rem;
 }
 
+#section-intro a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+.first01 a:hover {
+  opacity: .5;
+}
+
+
+
+
 
 
 /* SparkSpace */
 
 
 
-#section2 {
+#section-next {
   background-image: url("ssimage.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -266,7 +288,6 @@ nav ul li {
   letter-spacing: 8px;
   margin-top: -18rem;
 }
-
 
 
 /* Gallery */
@@ -691,11 +712,8 @@ nav ul li {
     /* SparkSpace Section */
 
 
-
-
-    #section2 {
-      background-repeat: no-repeat;
-      height: 449px;
+    #section-next {
+      height: inherit;
     }
 
     .info1 {
@@ -710,9 +728,9 @@ nav ul li {
 
     .infocircle {
       width: 28rem;
-      margin-top: 187px;
       position: relative;
       z-index: 1;
+      margin-top: 200px;
     }
 
     .sslogo {
