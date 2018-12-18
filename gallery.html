@@ -9,6 +9,16 @@
 
   <link rel="stylesheet" href="styles/gallerystyles.css">
 
+  <!-- Remember to include jQuery :) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="styles/modal.min.css">
+
+
+
+
 </head>
 
 <body>
@@ -107,13 +117,13 @@
 
         </div>
 
+</section>
 
 
 
         <!-- Images -->
 
-
-
+  <section id="section-two">
 
 
       <div class="images">
@@ -121,65 +131,154 @@
 
         <div class="imagerow">
 
-          <div class="cell">
-            <a href="">
-              <img src="images/gallery/img1.png" class="img1">
+            <div class="cell">
+              <a href="#ex1" rel="modal:open">
+                <img src="images/gallery/img1.png" class="img">
+              </a>
+          </div>
+
+            <div class="cell">
+              <a href="#ex2" rel="modal:open">
+                <img src="images/gallery/img2.png" class="img">
+              </a>
+            </div>
+
+        </div>
+
+        <div id="ex1" class="modal">
+          <img src="images/gallery/owl-open.png" class="owl-open">
+          <h2>INKTOBER OWL</h2>
+          <p>Tools used:&nbsp;&nbsp; Pencil, micron pens on paper</p>
+          <a href="#" rel="modal:close"></a>
+        </div>
+
+
+        <div id="ex2" class="modal">
+          <img src="images/gallery/horse-open.png" class="horse-open">
+          <h2>FREEDOM REINS</h2>
+          <p>
+            Vector illustrated book for nonprofit, therapy horse camp
+            <br>
+            Tools used:&nbsp;&nbsp; Adobe Illustrator,  Adobe Photoshop, Adobe InDesign
+          </p>
+          <a href="#" rel="modal:close"></a>
+        </div>
+
+
+
+        <div class="imagerow2">
+
+          <div class="cell2">
+            <a href="#ex3" rel="modal:open">
+              <img src="images/gallery/img3.png" class="img">
             </a>
           </div>
-          <div class="cell">
-            <a href="">
-              <img src="images/gallery/img2.png" class="img2">
+          <div class="cell2">
+            <a href="#ex4" rel="modal:open">
+              <img src="images/gallery/img4.png" class="img">
             </a>
           </div>
 
         </div>
 
 
-        <div class="imagerow2">
+        <div id="ex3" class="modal">
+          <img src="images/gallery/skull-open.png" class="skull-open">
+          <h2>CRYSTAL SKULL</h2>
+          <p>
+              Low-poly gradient skull  &nbsp;&nbsp;  /  &nbsp;&nbsp;  exploration of color, light, and form
+              <br>
+              Tools used:&nbsp;&nbsp; Adobe Illustrator, Adobe Photoshop
+          </p>
+          <a href="#" rel="modal:close"></a>
+        </div>
 
-          <div class="cell2">
-            <a href="">
-              <img src="images/gallery/img3.png" class="img3">
-            </a>
-          </div>
-          <div class="cell2">
-            <a href="">
-              <img src="images/gallery/img4.png" class="img4">
-            </a>
-          </div>
 
+        <div id="ex4" class="modal">
+          <img src="images/gallery/cay-open.png" class="cay-open">
+          <h2>BLUE</h2>
+          <p>
+              Inspired by my love for color, BLUE explores the relation of color and shape
+              <br>
+              Tools used:&nbsp;&nbsp; Acrylic on canvas &nbsp;&nbsp;  /  &nbsp;&nbsp; 36in x 42in
+          </p>
+          <a href="#" rel="modal:close"></a>
         </div>
 
 
         <div class="imagerow3">
 
           <div class="cell3">
-            <a href="">
-              <img src="images/gallery/img5.png" class="img5">
+            <a href="#ex5" rel="modal:open">
+              <img src="images/gallery/img5.png" class="img">
             </a>
           </div>
           <div class="cell3">
-            <a href="">
-              <img src="images/gallery/img6.png" class="img6">
+            <a href="#ex6" rel="modal:open">
+              <img src="images/gallery/img6.png" class="img">
             </a>
           </div>
 
+        </div>
+
+        <div id="ex5" class="modal">
+          <img src="images/gallery/marg-open.png" class="marg-open">
+          <h2>MER-GUERITE</h2>
+          <p>
+            Inspired by the organic nature of her hair, I made my dear friend one-with-the-sea
+            <br>
+            Tools used:&nbsp;&nbsp; chalk / oil pastel, colored pencil, pencil on paper
+          </p>
+          <a href="#" rel="modal:close"></a>
+        </div>
+
+
+        <div id="ex6" class="modal">
+          <img src="images/gallery/crown-open.png" class="crown-open">
+          <h2>PRUSSIA LOGO</h2>
+          <p>
+            Prussia logo redesign &nbsp;&nbsp;  /  &nbsp;&nbsp; hand-drawn typography
+            <br>
+            Tools used:&nbsp;&nbsp; Pen, paper, Adobe Illustrator
+          </p>
+          <a href="#" rel="modal:close"></a>
         </div>
 
 
         <div class="imagerow4">
 
           <div class="cell4">
-            <a href="">
-              <img src="images/gallery/img7.png" class="img7">
+            <a href="#ex7" rel="modal:open">
+              <img src="images/gallery/img7.png" class="img">
             </a>
           </div>
           <div class="cell4">
-            <a href="">
-              <img src="images/gallery/img8.png" class="img8">
+            <a href="#ex8" rel="modal:open">
+              <img src="images/gallery/img8.png" class="img">
             </a>
           </div>
 
+        </div>
+
+        <div id="ex7" class="modal">
+          <img src="images/gallery/shark-open.png" class="shark-open">
+          <h2>SHARK ATTACK</h2>
+          <p>
+            Originally created as a tattoo design &nbsp;&nbsp;  /  &nbsp;&nbsp; Low-poly gradient shark
+            <br>
+            Tools used:&nbsp;&nbsp; Adobe Illustrator, Adobe Photoshop
+            <a href="#" rel="modal:close"></a>
+        </div>
+
+
+        <div id="ex8" class="modal">
+          <img src="images/gallery/hines-open.png" class="hines-open">
+          <h2>HINES WARD</h2>
+          <p>
+            Portrait created for Hines Ward’s restaurant, Table 86
+            <br>
+            Tools used:&nbsp;&nbsp; Chalk / oil pastel, colored pencil on paper
+            <a href="#" rel="modal:close"></a>          <a href="#" rel="modal:close"></a>
         </div>
 
 
@@ -187,59 +286,120 @@
         <div class="imagerow5">
 
           <div class="cell5">
-            <a href="">
-              <img src="images/gallery/img9.png" class="img9">
+            <a href="#ex9" rel="modal:open">
+              <img src="images/gallery/img9.png" class="img">
             </a>
           </div>
           <div class="cell5">
-            <a href="">
-              <img src="images/gallery/img10.png" class="img10">
+            <a href="#ex10" rel="modal:open">
+              <img src="images/gallery/img10.png" class="img">
             </a>
           </div>
 
         </div>
 
+
+        <div id="ex9" class="modal">
+          <img src="images/gallery/fish-open.png" class="fish-open">
+          <h2>RAINBOW FISH</h2>
+          <p>
+            Inspired by The Rainbow Fish book &nbsp;&nbsp;/&nbsp;&nbsp; experimental project
+            <br>
+            Tools used:&nbsp;&nbsp; Adobe Photoshop
+          </p>
+          <a href="#" rel="modal:close"></a>
+        </div>
+
+
+        <div id="ex10" class="modal">
+          <img src="images/gallery/diamond-open.png" class="diamond-open">
+          <h2>CRYSTAL</h2>
+          <p>
+            Tools used:&nbsp;&nbsp; Cinema 4D, Adobe Illustrator, Adobe Photoshop
+          </p>
+          <a href="#" rel="modal:close"></a>
+        </div>
 
 
         <div class="imagerow6">
 
           <div class="cell6">
-            <a href="">
-              <img src="images/gallery/img11.png" class="img11">
+            <a href="#ex11" rel="modal:open">
+              <img src="images/gallery/img11.png" class="img">
             </a>
           </div>
           <div class="cell6">
-            <a href="">
-              <img src="images/gallery/img12.png" class="img12">
+            <a href="#ex12" rel="modal:open">
+              <img src="images/gallery/img12.png" class="img">
             </a>
           </div>
 
         </div>
 
+
+        <div id="ex11" class="modal">
+          <img src="images/gallery/wolfy-open.png" class="wolfy-open">
+          <h2>WOLFY SKULL</h2>
+          <p>
+            Likoudis: &nbsp;&nbsp; Derived from the Greek word meaning wolf
+            <br>
+            Tools used: &nbsp;&nbsp; Adobe Illustrator, Adobe Photoshop
+          </p>
+          <a href="#" rel="modal:close"></a>
+        </div>
+
+
+        <div id="ex12" class="modal">
+          <img src="images/gallery/eye-open.png" class="eye-open">
+          <h2>FAKE AWAKE</h2>
+          <p>
+            Illustration created for a magazine for insomniacs
+            <br>
+            Tools used: &nbsp;&nbsp; Adobe Illustrator
+          </p>
+          <a href="#" rel="modal:close"></a>
+        </div>
 
 
         <div class="imagerow7">
 
           <div class="cell7">
-            <a href="">
-              <img src="images/gallery/img13.png" class="img13">
+            <a href="#ex13" rel="modal:open">
+              <img src="images/gallery/img13.png" class="img">
             </a>
           </div>
           <div class="cell7">
-            <a href="">
-              <img src="images/gallery/img14.png" class="img14">
+            <a href="#ex14" rel="modal:open">
+              <img src="images/gallery/img14.png" class="img">
             </a>
           </div>
 
         </div>
 
+        <div id="ex13" class="modal">
+          <img src="images/gallery/g&g-open.png" class="g&g-open">
+          <h2>GEORGE & GABBY</h2>
+          <p>
+            Rustic wedding invitations & save-the-dates &nbsp;&nbsp;/&nbsp;&nbsp; hand-drawn typography
+            <br>
+            Tools used:&nbsp;&nbsp;  Adobe InDesign, Adobe Illustrator
+          </p>
+          <a href="#" rel="modal:close"></a>
+        </div>
 
 
+        <div id="ex14" class="modal">
+          <img src="images/gallery/kiss-open.png" class="kiss-open">
+          <h2>LOVE AT FIRST BEER</h2>
+          <p>
+            Tools used:&nbsp;&nbsp; Chalk pastel, oil pastel, colored pencil on paper
+          </p>
+          <a href="#" rel="modal:close"></a>
+        </div>
 
 
       </div>
     </div>
-
 
 
 
@@ -335,7 +495,9 @@
             <div class="footer-box">
               <div class="footer-content">
                 <div class="one-half" id="footerlogoid">
-                  <img src="images/logo.png " class="footerlogo">
+                  <a href="index.html">
+                    <img src="images/logo.png" class="footerlogo">
+                  </a>
                 </div>
                 <div class="footer-nav" id="footericons">
                   <a href="mailto:mailto:ellikoudis@gmail.com"><img src="images/emailicon.png" class="emailicon"></a>
