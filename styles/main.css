@@ -717,7 +717,7 @@ nav ul li {
       margin-top: 4rem;
       width: 400px;
       margin-left: 41px;
-      margin-top: -10rem;
+      margin-top: -10.2rem;
       position: static;
       z-index: 2;
       height: 100px;
@@ -727,7 +727,7 @@ nav ul li {
       width: 28rem;
       position: relative;
       z-index: 1;
-      margin-top: 205px;
+      margin-bottom: 0px;
     }
 
     .sslogo {
