@@ -68,6 +68,7 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: linear-gradient(0.30turn, #0000aa 3.25%, #df0052 76%, #ff0026 100%);
+  padding-bottom: 12rem;
 }
 
 #section-two {
@@ -711,7 +712,6 @@ nav ul li {
     .thirdcolumn {
       margin-left: -14rem;
       margin-top: 5rem;
-      margin-bottom: 70px;
     }
 
 
