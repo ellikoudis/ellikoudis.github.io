@@ -571,7 +571,6 @@ nav ul li {
       float: right;
     }
 
-
     .phone:hover {
       font-weight: bold;
     }
@@ -587,9 +586,6 @@ nav ul li {
 
     #menuToggle input {
       display: block;
-    }
-
-    #menuToggle .checkme {
       width: 40px;
       height: 32px;
       position: absolute;
@@ -724,6 +720,30 @@ nav ul li {
 
 
   /* Phone Navigation */
+
+  #menu {
+    padding-top: 71px;
+    margin-right: -100px;
+    margin-top: -50px;
+    background: linear-gradient(135deg, rgba(75,0,231,1) 0%,rgba(166,5,193,1) 15%,rgba(255,62,74,1) 35%);
+    border-radius: 100%;
+    width: 950%;
+    height: 950%;
+    background-size: 120rem;
+    z-index: -1;
+    padding-right:101px;
+  }
+
+  .menutog {
+    position: relative;
+    z-index: 6;
+  }
+
+  #menu li{
+    width: 100%;
+    text-align: right;
+  }
+
 
 
 
