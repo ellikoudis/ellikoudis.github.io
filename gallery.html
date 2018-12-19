@@ -9,7 +9,8 @@
 
   <link rel="stylesheet" href="styles/gallerystyles.css">
 
-  <!-- Remember to include jQuery :) -->
+  <script src="js/hover.js"></script>
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
   <!-- jQuery Modal -->
@@ -64,7 +65,7 @@
           <nav role="navigation">
             <div id="menuToggle">
 
-              <input type="checkbox" />
+              <input type="checkbox" class="checkme"/>
 
               <span></span>
               <span></span>
@@ -72,7 +73,7 @@
 
               <ul id="menu">
                   <a href="index.html"><li class="phone">HOME</li></a>
-                  <a href="index.html#section-next"><li class="phone">WORK</li></a>
+                  <a href="#" class="click"><li class="phone">WORK</li></a>
                   <a href="about.html"><li class="phone">ABOUT</li></a>
                   <a href="contact.html"><li class="phone">CONTACT</li></a>
               </ul>
@@ -80,9 +81,6 @@
           </nav>
         </div>
       </header>
-
-
-
 
 
         <!-- Intro -->
