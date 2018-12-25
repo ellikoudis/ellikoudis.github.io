@@ -312,22 +312,23 @@ nav ul li {
     z-index: 4;
   }
 
-  .phone
-  {
+  #menu {
+    text-align: right;
+  }
+
+  .phone a{
     text-decoration: none;
+    color: white;
     transition: color 0.3s ease;
     font-weight: 200;
     letter-spacing: 6px;
-    float: right;
-  }
+    }
 
-  .phone:hover
-  {
+  .phone a:hover {
     font-weight: bolder;
   }
 
-  #menuToggle
-  {
+  #menuToggle {
     display: block;
     position: relative;
     float: right;
@@ -495,9 +496,10 @@ nav ul li {
 
 
   h1 {
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 30px;
     line-height: 8rem;
+    margin-bottom: 55px;
   }
 
   p {
@@ -538,6 +540,10 @@ nav ul li {
   #menu li{
     width: 100%;
     text-align: right;
+  }
+
+  .phone a:hover {
+    font-weight: 200;
   }
 
   .firstsection {

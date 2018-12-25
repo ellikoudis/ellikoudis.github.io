@@ -38,14 +38,13 @@ h2 {
 
 p {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 2rem;
-  font-size: 20.5px;
-  font-weight: lighter;
+  line-height: 3rem;
+  font-size: 16.5px;
+  font-weight: 100;
   width: 80%;
   margin-bottom: 74px;
   margin-left: 68px;
-  line-height: 40px;
-  letter-spacing: 3px;
+  letter-spacing: 1.5px;
 }
 
 
@@ -72,10 +71,7 @@ p {
 }
 
 #section-two {
-  padding-left: 71px;
-  padding-right: 71px;
   background: black;
-  padding-top: 71px;
 }
 
 .firstsection {
@@ -184,16 +180,9 @@ nav ul li {
   display: none;
 }
 
-.images {
-  margin-right: -71px;
-  margin-left: -61px;
-  margin-top: -61px;
-}
-
 .imagerow {
   z-index: 1;
   position: relative;
-  margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -201,7 +190,6 @@ nav ul li {
 
 .cell  {
   width: 50%;
-  padding-right: 1rem;
 }
 
 .cell img {
@@ -212,7 +200,6 @@ nav ul li {
 .imagerow2 {
   z-index: 1;
   position: relative;
-  margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -220,7 +207,6 @@ nav ul li {
 
 .cell2  {
   width: 50%;
-  padding-right: 1rem;
 }
 
 .cell2 img {
@@ -234,12 +220,10 @@ nav ul li {
   flex-direction: row;
   position: relative;
   z-index: 1;
-  margin-bottom: 1rem;
 }
 
 .cell3  {
   width: 50%;
-  padding-right: 1rem;
 }
 
 .cell3 img {
@@ -251,14 +235,12 @@ nav ul li {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-bottom: 1rem;
   position: relative;
   z-index: 1;
 }
 
 .cell4  {
   width: 50%;
-  padding-right: 1rem;
 }
 
 .cell4 img {
@@ -272,12 +254,10 @@ nav ul li {
   flex-direction: row;
   position: relative;
   z-index: 1;
-  margin-bottom: 1rem;
 }
 
 .cell5  {
   width: 50%;
-  padding-right: 1rem;
 }
 
 .cell5 img {
@@ -291,12 +271,10 @@ nav ul li {
   flex-direction: row;
   position: relative;
   z-index: 1;
-  margin-bottom: 1rem;
 }
 
 .cell6  {
   width: 50%;
-  padding-right: 1rem;
 }
 
 .cell6 img {
@@ -310,12 +288,10 @@ nav ul li {
   flex-direction: row;
   position: relative;
   z-index: 1;
-  padding-bottom: 1rem;
 }
 
 .cell7  {
   width: 50%;
-  padding-right: 1rem;
 }
 
 .cell7 img {
@@ -348,7 +324,6 @@ nav ul li {
   .imggrid {
   	position: relative;
   	clear: both;
-  	padding: 1em 0 4em;
   	max-width: 1000px;
   	list-style: none;
   	text-align: center;
@@ -402,87 +377,6 @@ nav ul li {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-  body {
-    background-color: #2B0059;
-    color: #fff;
-  }
-  .glitch {
-    font-size: 130px;
-    line-height: 1;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    text-decoration: none;
-    color: #fff;
-    &:before,
-    &:after{
-      display: block;
-      content: '17';
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      opacity: .8;
-    }
-    &:after {
-      color: #f0f;
-      z-index: -2;
-    }
-    &:before {
-      color: #0ff;
-      z-index: -1;
-    }
-    &:hover {
-      &:before {
-        animation: glitch 12s cubic-bezier(.25, .46, .45, .94) both infinite
-      }
-      &:after {
-        animation: glitch 12s cubic-bezier(.25, .46, .45, .94) reverse both infinite
-      }
-    }
-  }
-  @keyframes glitch {
-      0% {
-          -webkit-transform: translate(0);
-          transform: translate(0)
-      }
-      20% {
-          -webkit-transform: translate(-5px, 5px);
-          transform: translate(-5px, 5px)
-      }
-      40% {
-          -webkit-transform: translate(-5px, -5px);
-          transform: translate(-5px, -5px)
-      }
-      60% {
-          -webkit-transform: translate(5px, 5px);
-          transform: translate(5px, 5px)
-      }
-      80% {
-          -webkit-transform: translate(5px, -5px);
-          transform: translate(5px, -5px)
-      }
-      to {
-          -webkit-transform: translate(0);
-          transform: translate(0)
-      }
-  }
 
 
 
@@ -563,17 +457,22 @@ nav ul li {
       z-index: 4;
     }
 
-    .phone {
+    #menu {
+      text-align: right;
+    }
+
+    .phone a{
       text-decoration: none;
+      color: white;
       transition: color 0.3s ease;
       font-weight: 200;
       letter-spacing: 6px;
-      float: right;
+      }
+
+    .phone a:hover {
+      font-weight: bolder;
     }
 
-    .phone:hover {
-      font-weight: bold;
-    }
 
     #menuToggle {
       display: block;
@@ -744,7 +643,9 @@ nav ul li {
     text-align: right;
   }
 
-
+  .phone a:hover {
+    font-weight: 200;
+  }
 
 
   .firstsection {

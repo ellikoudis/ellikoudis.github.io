@@ -221,7 +221,7 @@ nav ul li {
 
 
 #section-next {
-  background-image: url("ssimage.png");
+  background-image: url("ssimage.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -292,7 +292,7 @@ nav ul li {
 
 
   #section3 {
-  background-image: url("galleryimg.png");
+  background-image: url("galleryimg.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -436,19 +436,22 @@ nav ul li {
       z-index: 4;
     }
 
-    .phone
-    {
+    #menu {
+      text-align: right;
+    }
+
+    .phone a {
       text-decoration: none;
+      color: white;
       transition: color 0.3s ease;
       font-weight: 200;
       letter-spacing: 6px;
-      float: right;
-    }
+      }
 
-    .phone:hover
-    {
+    .phone a:hover {
       font-weight: bolder;
     }
+
 
     #menuToggle
     {
@@ -538,8 +541,7 @@ nav ul li {
     /* Make this absolute positioned */
 
 
-    #menu
-    {
+    #menu {
       position: absolute;
       left:auto;
       right:0;
@@ -554,8 +556,7 @@ nav ul li {
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
 
-    #menu li
-    {
+    #menu li {
       padding: 10px 0;
       font-size: 22px;
       color: white;
@@ -615,6 +616,10 @@ nav ul li {
     #menu li{
       width: 100%;
       text-align: right;
+    }
+
+    .phone a:hover {
+      font-weight: 200;
     }
 
 

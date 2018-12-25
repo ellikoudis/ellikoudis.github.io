@@ -149,13 +149,15 @@ p {
 
 
   .row {
-    width: 100%;
+    width: 93%;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     position: static;
     z-index: 0;
     margin-top: 5rem;
+    margin-left: 71px;
+    padding-right: 71px;
   }
 
   .column {
@@ -182,7 +184,6 @@ p {
     transform: rotate(-45deg);
     margin-top: 20rem;
     margin-bottom: 20rem;
-    margin-left: 30px;
   }
 
   .icon-nav {
@@ -258,36 +259,32 @@ p {
       z-index: 4;
     }
 
-    .phone
-    {
+    #menu {
+      text-align: right;
+    }
+
+    .phone a{
       text-decoration: none;
+      color: white;
       transition: color 0.3s ease;
       font-weight: 200;
       letter-spacing: 6px;
-      float: right;
-    }
+      }
 
-    .phone:hover
-    {
+    .phone a:hover {
       font-weight: bolder;
     }
 
-    #menuToggle
-    {
+    #menuToggle  {
       display: block;
       position: relative;
       float: right;
-
-
-
       z-index: 1;
-
       -webkit-user-select: none;
       user-select: none;
     }
 
-    #menuToggle input
-    {
+    #menuToggle input  {
       display: block;
       width: 40px;
       height: 32px;
@@ -305,8 +302,7 @@ p {
 
     /* Create hamburger */
 
-    #menuToggle span
-    {
+    #menuToggle span  {
       display: block;
       width: 33px;
       height: 2px;
@@ -325,20 +321,17 @@ p {
                   opacity 0.5s ease;
     }
 
-    #menuToggle span:first-child
-    {
+    #menuToggle span:first-child  {
       transform-origin: 0% 0%;
     }
 
-    #menuToggle span:nth-last-child(2)
-    {
+    #menuToggle span:nth-last-child(2)  {
       transform-origin: 0% 100%;
     }
 
     /* Transform all the slices of hamburger into a crossmark. */
 
-    #menuToggle input:checked ~ span
-    {
+    #menuToggle input:checked ~ span  {
       opacity: 1;
       transform: rotate(45deg) translate(0px, 0px);
       background: white;
@@ -346,22 +339,19 @@ p {
 
     /* Hide the middle one line */
 
-    #menuToggle input:checked ~ span:nth-last-child(3)
-    {
+    #menuToggle input:checked ~ span:nth-last-child(3)  {
       opacity: 0;
       transform: rotate(0deg) scale(0.2, 0.2);
     }
 
-    #menuToggle input:checked ~ span:nth-last-child(2)
-    {
+    #menuToggle input:checked ~ span:nth-last-child(2)  {
       transform: rotate(-45deg) translate(0px, 0px);
     }
 
     /* Make this absolute positioned */
 
 
-    #menu
-    {
+    #menu {
       position: absolute;
       left:auto;
       right:0;
@@ -375,8 +365,7 @@ p {
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
 
-    #menu li
-    {
+    #menu li  {
       padding: 10px 0;
       font-size: 22px;
       color: white;
@@ -384,8 +373,7 @@ p {
 
     /* And let's slide it in from the right */
 
-    #menuToggle input:checked ~ ul
-    {
+    #menuToggle input:checked ~ ul  {
       transform: none;
     }
 
@@ -399,6 +387,8 @@ p {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin-left: 0px;
+      padding-right: 0px;
     }
 
     .column {
@@ -406,11 +396,11 @@ p {
     }
 
     .dl {
-      width: 102%;
+      width: 90%;
       transform: rotate(-15deg);
       margin-top: -25rem;
       margin-bottom: 0px;
-      margin-left: 0px;
+      margin-left: 71px;
     }
 
     .thirdcolumn{
@@ -422,6 +412,10 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .secondcolumn {
+      width: 90%;
     }
 
     h1{
@@ -466,6 +460,9 @@ p {
       text-align: right;
     }
 
+    .phone a:hover {
+      font-weight: 200;
+    }
 
     .firstsection {
       margin-left: 41px;
@@ -512,25 +509,36 @@ p {
       text-align: left;
     }
 
-
-
     .phone {
       font-weight: 400;
       font-size: 14px;
     }
 
 
-
-
     /* Big Section */
 
+    .row {
+      margin-left: 41px;
+      margin-right: 41px;
+    }
+
+    .dl {
+      margin-left: 0px;
+      width: 80%;
+    }
 
     .firstcolumn {
-        display: block;
+      width: 80%;
+    }
+
+    .secondcolumn {
+      margin-left: 0px;
+      width: 70%;
     }
 
     .thirdcolumn{
       margin-bottom: 6rem;
+      width: 80%;
     }
 
     h1 {
@@ -547,7 +555,7 @@ p {
     }
 
     p {
-      width: 90%;
+      width: 100%;
       font-size: 1.6rem;
       margin-bottom: 3rem;
       text-align: left;

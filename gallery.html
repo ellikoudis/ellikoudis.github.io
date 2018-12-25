@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio | Elena Likoudis</title>
 
-  <link rel="stylesheet" href="styles/gallerystyles.css">
+  <link rel="stylesheet" type="text/css" href="styles/gallerystyles.css">
 
   <script src="js/hover.js"></script>
    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -33,7 +33,7 @@
           <div class="navbar">
             <div class="logo">
               <a href="index.html">
-                <img src="images/logo.png" class="logo">
+                <img src="images/logo.png" alt="logo" class="logo">
               </a>
           </div>
 
@@ -61,7 +61,7 @@
 
 
         <div class="hamburgermenu">
-          <nav role="navigation">
+          <nav class="navigation">
             <div id="menuToggle" class="menutog">
 
               <input type="checkbox"/>
@@ -71,15 +71,17 @@
               <span></span>
 
               <ul id="menu" class="circleimgr">
-                  <a href="index.html"><li class="phone">HOME</li></a>
-                  <a href="index.html#section-next"><li class="phone">WORK</li></a>
-                  <a href="about.html"><li class="phone">ABOUT</li></a>
-                  <a href="contact.html"><li class="phone">CONTACT</li></a>
+                  <li class="phone"><a href="index.html">HOME</a></li>
+                  <li class="phone"><a href="index.html#section-next">WORK</a></li>
+                  <li class="phone"><a href="about.html">ABOUT</a></li>
+                  <li class="phone"><a href="contact.html">CONTACT</a></li>
               </ul>
             </div>
           </nav>
         </div>
-      </header>
+      </div>
+    </header>
+  </div>
 
 
         <!-- Intro -->
@@ -131,10 +133,8 @@
             <div class="cell">
               <figure class="effect-winston">
               <a href="#ex1" rel="modal:open">
-                <img src="images/gallery/img1.png" class="img">
-                <figcaption>
+                <img src="images/gallery/img1.png" alt="img" class="img">
                   <h2>INKTOBER OWL</h2>
-                </figcaption>
               </a>
               </figure>
             </div>
@@ -142,10 +142,8 @@
             <div class="cell">
               <figure class="effect-winston">
               <a href="#ex2" rel="modal:open">
-                <img src="images/gallery/img2.png" class="img">
-                <figcaption>
+                <img src="images/gallery/img2.jpg" alt="img2" class="img">
                   <h2>FREEDOM REINS</h2>
-                </figcaption>
               </a>
               </figure>
             </div>
@@ -154,7 +152,9 @@
         </div>
 
         <div id="ex1" class="modal">
-          <img src="images/gallery/owl-open.png" class="owl-open">
+          <img src="images/gallery/owl-open.jpg" alt="owl-open" class="owl-open">
+          <img src="images/gallery/owl-open-2.jpg" alt="owl-open2" class="owl-open">
+          <img src="images/gallery/owl-open-3.jpg" alt="owl-open3" class="owl-open">
           <h2>INKTOBER OWL</h2>
           <p>Tools used:&nbsp;&nbsp; Pencil, micron pens on paper</p>
           <a href="#" rel="modal:close"></a>
@@ -162,7 +162,14 @@
 
 
         <div id="ex2" class="modal">
-          <img src="images/gallery/horse-open.png" class="horse-open">
+          <img src="images/gallery/horse-open.jpg" alt="horse-open" class="horse-open">
+          <img src="images/gallery/horse-open-2.jpg" alt="horse-open2" class="horse-open">
+          <img src="images/gallery/horse-open-3.jpg" alt="horse-open3" class="horse-open">
+          <img src="images/gallery/horse-open-4.jpg" alt="horse-open4" class="horse-open">
+          <img src="images/gallery/horse-open-5.jpg" alt="horse-open5" class="horse-open">
+          <img src="images/gallery/horse-open-6.jpg" alt="horse-open6" class="horse-open">
+          <img src="images/gallery/horse-open-7.jpg" alt="horse-open7" class="horse-open">
+
           <h2>FREEDOM REINS</h2>
           <p>
             Vector illustrated book for nonprofit, therapy horse camp
@@ -178,20 +185,16 @@
           <div class="cell2">
             <figure class="effect-winston">
             <a href="#ex3" rel="modal:open">
-              <img src="images/gallery/img3.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img3.jpg" alt="img3" class="img">
                 <h2>CRYSTAL SKULL</h2>
-              </figcaption>
             </a>
           </figure>
           </div>
           <div class="cell2">
             <figure class="effect-winston">
             <a href="#ex4" rel="modal:open">
-              <img src="images/gallery/img4.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img4.jpg" alt="img4" class="img">
                 <h2>BLUE</h2>
-              </figcaption>
             </a>
           </figure>
           </div>
@@ -200,7 +203,7 @@
 
 
         <div id="ex3" class="modal">
-          <img src="images/gallery/skull-open.png" class="skull-open">
+          <img src="images/gallery/skull-open.jpg" alt="skull-open" class="skull-open">
           <h2>CRYSTAL SKULL</h2>
           <p>
               Low-poly gradient skull  &nbsp;&nbsp;  /  &nbsp;&nbsp;  exploration of color, light, and form
@@ -212,7 +215,8 @@
 
 
         <div id="ex4" class="modal">
-          <img src="images/gallery/cay-open.png" class="cay-open">
+          <img src="images/gallery/cay-open.jpg" alt="cay-open" class="cay-open">
+          <img src="images/gallery/cay-open-2.jpg" alt="cay-open2" class="cay-open">
           <h2>BLUE</h2>
           <p>
               Inspired by my love for color, BLUE explores the relation of color and shape
@@ -228,20 +232,16 @@
           <div class="cell3">
             <figure class="effect-winston">
             <a href="#ex5" rel="modal:open">
-              <img src="images/gallery/img5.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img5.jpg" alt="img5" class="img">
                 <h2>MER-GUERITE</h2>
-              </figcaption>
             </a>
           </figure>
           </div>
           <div class="cell3">
             <figure class="effect-winston">
             <a href="#ex6" rel="modal:open">
-              <img src="images/gallery/img6.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img6.png" alt="img6" class="img">
                 <h2>PRUSSIA</h2>
-              </figcaption>
             </a>
           </figure>
            </div>
@@ -249,7 +249,8 @@
         </div>
 
         <div id="ex5" class="modal">
-          <img src="images/gallery/marg-open.png" class="marg-open">
+          <img src="images/gallery/marg-open.jpg" alt="marg-open" class="marg-open">
+          <img src="images/gallery/marg-open-2.jpg" alt="marg-open2" class="marg-open">
           <h2>MER-GUERITE</h2>
           <p>
             Inspired by the organic nature of her hair, I made my dear friend one-with-the-sea
@@ -261,7 +262,8 @@
 
 
         <div id="ex6" class="modal">
-          <img src="images/gallery/crown-open.png" class="crown-open">
+          <img src="images/gallery/crown-open.jpg" alt="crown-open" class="crown-open">
+          <img src="images/gallery/crown-open-2.jpg" alt="crown-open2" class="crown-open">
           <h2>PRUSSIA LOGO</h2>
           <p>
             Prussia logo redesign &nbsp;&nbsp;  /  &nbsp;&nbsp; hand-drawn typography
@@ -277,20 +279,16 @@
           <div class="cell4">
             <figure class="effect-winston">
             <a href="#ex7" rel="modal:open">
-              <img src="images/gallery/img7.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img7.png" alt="img7" class="img">
                 <h2>SHARK ATTACK</h2>
-              </figcaption>
             </a>
           </figure>
         </div>
           <div class="cell4">
             <figure class="effect-winston">
             <a href="#ex8" rel="modal:open">
-              <img src="images/gallery/img8.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img8.jpg" alt="img8" class="img">
                 <h2>HINES WARD</h2>
-              </figcaption>
             </a>
           </figure>
         </div>
@@ -298,7 +296,7 @@
         </div>
 
         <div id="ex7" class="modal">
-          <img src="images/gallery/shark-open.png" class="shark-open">
+          <img src="images/gallery/shark-open.jpg" alt="shark-open" class="shark-open">
           <h2>SHARK ATTACK</h2>
           <p>
             Originally created as a tattoo design &nbsp;&nbsp;  /  &nbsp;&nbsp; Low-poly gradient shark
@@ -309,7 +307,7 @@
 
 
         <div id="ex8" class="modal">
-          <img src="images/gallery/hines-open.png" class="hines-open">
+          <img src="images/gallery/hines-open.jpg" alt="hines-open" class="hines-open">
           <h2>HINES WARD</h2>
           <p>
             Portrait created for Hines Ward’s restaurant, Table 86
@@ -325,20 +323,16 @@
           <div class="cell5">
             <figure class="effect-winston">
             <a href="#ex9" rel="modal:open">
-              <img src="images/gallery/img9.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img9.png" alt="img9" class="img">
                 <h2>RAINBOW FISH</h2>
-              </figcaption>
             </a>
           </figure>
            </div>
           <div class="cell5">
             <figure class="effect-winston">
             <a href="#ex10" rel="modal:open">
-              <img src="images/gallery/img10.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img10.png" alt="img10" class="img">
                 <h2>CRYSTAL</h2>
-              </figcaption>
             </a>
           </figure>
           </div>
@@ -347,7 +341,7 @@
 
 
         <div id="ex9" class="modal">
-          <img src="images/gallery/fish-open.png" class="fish-open">
+          <img src="images/gallery/fish-open2.jpg" alt="fish-open" class="fish-open">
           <h2>RAINBOW FISH</h2>
           <p>
             Inspired by The Rainbow Fish book &nbsp;&nbsp;/&nbsp;&nbsp; experimental project
@@ -359,7 +353,7 @@
 
 
         <div id="ex10" class="modal">
-          <img src="images/gallery/diamond-open.png" class="diamond-open">
+          <img src="images/gallery/diamond-open.jpg" alt="diamond-open" class="diamond-open">
           <h2>CRYSTAL</h2>
           <p>
             Tools used:&nbsp;&nbsp; Cinema 4D, Adobe Illustrator, Adobe Photoshop
@@ -373,20 +367,16 @@
           <div class="cell6">
             <figure class="effect-winston">
             <a href="#ex11" rel="modal:open">
-              <img src="images/gallery/img11.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img11.jpg" alt="img11" class="img">
                 <h2>WOLFY SKULL</h2>
-              </figcaption>
             </a>
           </figure>
             </div>
           <div class="cell6">
             <figure class="effect-winston">
             <a href="#ex12" rel="modal:open">
-              <img src="images/gallery/img12.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img12.png" alt="img12" class="img">
                 <h2>FAKE AWAKE</h2>
-              </figcaption>
             </a>
           </figure>
           </div>
@@ -395,7 +385,7 @@
 
 
         <div id="ex11" class="modal">
-          <img src="images/gallery/wolfy-open.png" class="wolfy-open">
+          <img src="images/gallery/wolfy-open.jpg" alt="wolfy-open" class="wolfy-open">
           <h2>WOLFY SKULL</h2>
           <p>
             Likoudis: &nbsp;&nbsp; Derived from the Greek word meaning wolf
@@ -407,7 +397,7 @@
 
 
         <div id="ex12" class="modal">
-          <img src="images/gallery/eye-open.png" class="eye-open">
+          <img src="images/gallery/eye-open.jpg" alt="eye-open" class="eye-open">
           <h2>FAKE AWAKE</h2>
           <p>
             Illustration created for a magazine for insomniacs
@@ -423,20 +413,16 @@
           <div class="cell7">
             <figure class="effect-winston">
             <a href="#ex13" rel="modal:open">
-              <img src="images/gallery/img13.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img13.jpg" alt="img13" class="img">
                 <h2>GEORGE & GABBY</h2>
-              </figcaption>
             </a>
           </figure>
           </div>
           <div class="cell7">
             <figure class="effect-winston">
             <a href="#ex14" rel="modal:open">
-              <img src="images/gallery/img14.png" class="img">
-              <figcaption>
+              <img src="images/gallery/img14.png" alt="img14" class="img">
                 <h2>LOVE @ 1st BEER</h2>
-              </figcaption>
             </a>
           </figure>
           </div>
@@ -444,7 +430,10 @@
         </div>
 
         <div id="ex13" class="modal">
-          <img src="images/gallery/g&g-open.png" class="g&g-open">
+          <img src="images/gallery/g&g-open.jpg" alt="g&g-open" class="g&g-open">
+          <img src="images/gallery/g&g-open-2.jpg" alt="g&g-open2" class="g&g-open">
+          <img src="images/gallery/g&g-open-3.jpg" alt="g&g-open3" class="g&g-open">
+          <img src="images/gallery/g&g-open-4.jpg" alt="g&g-open4" class="g&g-open">
           <h2>GEORGE & GABBY</h2>
           <p>
             Rustic wedding invitations & save-the-dates &nbsp;&nbsp;/&nbsp;&nbsp; hand-drawn typography
@@ -456,7 +445,7 @@
 
 
         <div id="ex14" class="modal">
-          <img src="images/gallery/kiss-open.png" class="kiss-open">
+          <img src="images/gallery/kiss-open.jpg" alt="kiss-open" class="kiss-open">
           <h2>LOVE AT FIRST BEER</h2>
           <p>
             Tools used:&nbsp;&nbsp; Chalk pastel, oil pastel, colored pencil on paper
@@ -466,22 +455,9 @@
 
 
 
-        <div id="ex7" class="modal">
-          <img src="images/gallery/shark-open.png" class="shark-open">
-          <h2>SHARK ATTACK</h2>
-          <p>
-            Originally created as a tattoo design &nbsp;&nbsp;  /  &nbsp;&nbsp; Low-poly gradient shark
-            <br><br>
-            Tools used:&nbsp;&nbsp; Adobe Illustrator, Adobe Photoshop
-            <a href="#" rel="modal:close"></a>
-        </div>
-
-
-
-
-
         <div id="ex19" class="modal">
-          <img src="images/gallery/fish-open2.png" class="fish-open">
+          <img src="images/gallery/fish-open2.jpg" alt="fish-open" class="fish-open">
+          <img src="images/gallery/fish-open2-2.jpg" alt="fish-open2" class="fish-open">
           <h2>RAINBOW FISH</h2>
           <p>
             Inspired by The Rainbow Fish book &nbsp;&nbsp;/&nbsp;&nbsp; experimental project
@@ -493,7 +469,8 @@
 
 
         <div id="ex18" class="modal">
-          <img src="images/gallery/hines-open.png" class="hines-open">
+          <img src="images/gallery/hines-open2.jpg" alt="hines-open" class="hines-open">
+          <img src="images/gallery/hines-open2-2.jpg" alt="hines-open2" class="hines-open">
           <h2>HINES WARD</h2>
           <p>
             Portrait created for Hines Ward’s restaurant, Table 86
@@ -503,7 +480,9 @@
         </div>
 
         <div id="ex17" class="modal">
-          <img src="images/gallery/crown-open2.png" class="hines-open">
+          <img src="images/gallery/crown-open.jpg" alt="crown-open"> class="crown-open">
+          <img src="images/gallery/crown-open2-2.jpg" alt="crown-open2"> class="crown-open">
+          <img src="images/gallery/crown-open2-3.jpg" alt="crown-open3"> class="crown-open">
           <h2>PRUSSIA LOGO</h2>
             <p>
               Prussia logo redesign &nbsp;&nbsp;  /  &nbsp;&nbsp; hand-drawn typography
@@ -514,7 +493,9 @@
         </div>
 
         <div id="ex16" class="modal">
-          <img src="images/gallery/cay-open2.png" class="cay-open">
+          <img src="images/gallery/cay-open.jpg" alt="cay-open" class="cay-open">
+          <img src="images/gallery/cay-open-2.jpg" alt="cay-open2" class="cay-open">
+          <img src="images/gallery/cay-open-3.jpg" alt="cay-open3" class="cay-open">
           <h2>BLUE</h2>
           <p>
               Inspired by my love for color, BLUE explores the relation of color and shape
@@ -527,7 +508,6 @@
 
 
       </div>
-    </div>
 
 
 
@@ -541,59 +521,59 @@
     <div class="pimages">
 
           <a href="#ex1" rel="modal:open">
-            <img src="images/gallery/pimg1.png" class="pimg1">
+            <img src="images/gallery/pimg1.png" alt="pimg1" class="pimg1">
           </a>
 
           <a href="#ex2" rel="modal:open">
-            <img src="images/gallery/pimg2.png" class="pimg2">
+            <img src="images/gallery/pimg2.png" alt="pimg2" class="pimg2">
           </a>
 
           <a href="#ex3" rel="modal:open">
-            <img src="images/gallery/pimg3.png" class="pimg3">
+            <img src="images/gallery/pimg3.png" alt="pimg3" class="pimg3">
           </a>
 
           <a href="#ex16" rel="modal:open">
-            <img src="images/gallery/pimg4.png" class="pimg4">
+            <img src="images/gallery/pimg4.png" alt="pimg4" class="pimg4">
           </a>
 
           <a href="#ex5" rel="modal:open">
-            <img src="images/gallery/pimg5.png" class="pimg5">
+            <img src="images/gallery/pimg5.png" alt="pimg5" class="pimg5">
           </a>
 
           <a href="#ex17" rel="modal:open">
-            <img src="images/gallery/pimg6.png" class="pimg6">
+            <img src="images/gallery/pimg6.png" alt="pimg6" class="pimg6">
           </a>
 
           <a href="#ex7" rel="modal:open">
-            <img src="images/gallery/pimg7.png" class="pimg7">
+            <img src="images/gallery/pimg7.png" alt="pimg7" class="pimg7">
           </a>
 
           <a href="#ex18" rel="modal:open">
-            <img src="images/gallery/pimg8.png" class="pimg8">
+            <img src="images/gallery/pimg8.png" alt="pimg8" class="pimg8">
           </a>
 
           <a href="#ex19" rel="modal:open">
-            <img src="images/gallery/pimg9.png" class="pimg9">
+            <img src="images/gallery/pimg9.png" alt="pimg9" class="pimg9">
           </a>
 
           <a href="#ex10" rel="modal:open">
-            <img src="images/gallery/pimg10.png" class="pimg10">
+            <img src="images/gallery/pimg10.png" alt="pimg10" class="pimg10">
           </a>
 
           <a href="#ex11" rel="modal:open">
-            <img src="images/gallery/pimg11.png" class="pimg11">
+            <img src="images/gallery/pimg11.png" alt="pimg11" class="pimg11">
           </a>
 
           <a href="#ex12" rel="modal:open">
-            <img src="images/gallery/pimg12.png" class="pimg12">
+            <img src="images/gallery/pimg12.png" alt="pimg12" class="pimg12">
           </a>
 
           <a href="#ex13" rel="modal:open">
-            <img src="images/gallery/pimg13.png" class="pimg13">
+            <img src="images/gallery/pimg13.png" alt="pimg12" class="pimg13">
           </a>
 
           <a href="#ex14" rel="modal:open">
-            <img src="images/gallery/pimg14.png" class="pimg14">
+            <img src="images/gallery/pimg14.png" alt="pimg12" class="pimg14">
           </a>
 
       </div>
@@ -624,15 +604,15 @@
               <div class="footer-content">
                 <div class="one-half" id="footerlogoid">
                   <a href="index.html">
-                    <img src="images/logo.png" class="footerlogo">
+                    <img src="images/logo.png" alt="footerlogo" class="footerlogo">
                   </a>
                 </div>
                 <div class="footer-nav" id="footericons">
-                  <a href="mailto:mailto:ellikoudis@gmail.com"><img src="images/emailicon.png" class="emailicon"></a>
-                  <a href="https://github.com/ellikoudis"><img src="images/githubicon.png" class="githubicon"></a>
-                  <a href="https://www.instagram.com/ellikoudis/"><img src="images/instaicon.png" class="instaicon"></a>
-                  <a href="https://twitter.com/ellikoudis"><img src="images/twittericon.png" class="twittericon"></a>
-                  <a href="https://www.linkedin.com/in/elena-likoudis-949a58162/"><img src="images/linkedinicon.png" class="linkedinicon"></a>
+                  <a href="mailto:mailto:ellikoudis@gmail.com"><img src="images/emailicon.png" alt="emailicon" class="emailicon"></a>
+                  <a href="https://github.com/ellikoudis"><img src="images/githubicon.png" alt="githubicon" class="githubicon"></a>
+                  <a href="https://www.instagram.com/ellikoudis/"><img src="images/instaicon.png" alt="instaicon" class="instaicon"></a>
+                  <a href="https://twitter.com/ellikoudis"><img src="images/twittericon.png" alt="twittericon" class="twittericon"></a>
+                  <a href="https://www.linkedin.com/in/elena-likoudis-949a58162/"><img src="images/linkedinicon.png" alt="linkedinicon" class="linkedinicon"></a>
                 </div>
               </div>
             </div>
