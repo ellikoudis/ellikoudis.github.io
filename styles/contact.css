@@ -426,6 +426,11 @@ p {
     p {
       text-align: center;
     }
+
+    h2 {
+      font-size: 15px;
+      letter-spacing: 4px;
+    }
   }
 
 

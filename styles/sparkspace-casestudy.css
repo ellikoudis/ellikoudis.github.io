@@ -1233,18 +1233,11 @@ nav ul li {
 /* Hifi Mockups Round 2 */
 
 
-
-  .bigcirc4 {
-    width: 100vw;
-    margin-left: -71px;
-    position: absolute;
-    z-index: -1;
-  }
-
   .mockups1 {
-    width: 91%;
+    width: 100vw;
     position: static;
     z-index: 1;
+    margin-left: -71px;
   }
 
   .mockups2 {
