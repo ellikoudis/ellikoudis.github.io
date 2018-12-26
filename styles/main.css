@@ -286,6 +286,21 @@ nav ul li {
   margin-top: -18rem;
 }
 
+.arrow2 {
+  width: 60px;
+}
+
+.next2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.arrow3 {
+  display: none;
+}
+
 
 /* Gallery */
 
@@ -583,6 +598,15 @@ nav ul li {
     .gradient3 {
       display: none;
     }
+
+    .arrow2 {
+      display: none;
+    }
+
+    .arrow3 {
+      display: block;
+      width: 60px;
+    }
   }
 
 
@@ -621,7 +645,6 @@ nav ul li {
     .phone a:hover {
       font-weight: 200;
     }
-
 
     .firstsection {
       margin-left: 41px;
@@ -667,7 +690,6 @@ nav ul li {
       display: block;
       text-align: left;
     }
-
 
     .phone {
       font-weight: 400;
@@ -796,6 +818,10 @@ nav ul li {
       float: left;
       margin-top: -4rem;
       margin-left: -1.5rem;
+    }
+
+    .next2 {
+      display: none;
     }
 
 
