@@ -717,7 +717,7 @@ nav ul li {
     p {
       line-height: 31px;
       font-size: 1.6rem;
-      font-weight: 200;
+      font-weight: normal;
       width: auto;
       margin-top: -2.5rem;
       margin-bottom: 4rem;
@@ -812,7 +812,7 @@ nav ul li {
       width: 195px;
       color: white;
       font-family: 'Montserrat', sans-serif;
-      font-weight: 200;
+      font-weight: normal;
       font-size: 15px;
       letter-spacing: 4px;
       float: left;
