@@ -2249,7 +2249,7 @@ nav ul li {
   }
 
   .mockbutton {
-    font-size: 15;
+    font-size: 15px;
     letter-spacing: 8px;
     font-weight: 200;
   }
@@ -2518,7 +2518,7 @@ font-size: 22px;
     }
 
     .compbutton {
-      font-size: 15;
+      font-size: 15px;
       letter-spacing: 8px;
       font-weight: 200;
     }
@@ -2595,7 +2595,7 @@ font-size: 22px;
     }
 
     .userbutton {
-      font-size: 15;
+      font-size: 15px;
       letter-spacing: 8px;
       font-weight: 200;
     }
@@ -2630,7 +2630,7 @@ font-size: 22px;
     }
 
     .wireframesbutton5 {
-      font-size: 15;
+      font-size: 15px;
       letter-spacing: 8px;
     }
 
@@ -2687,8 +2687,9 @@ font-size: 22px;
     }
 
     .brandingbutton6 {
-      font-size: 16;
+      font-size: 15px;
       letter-spacing: 8px;
+      font-weight: 200;
     }
 
     .phonebranding {
@@ -2735,7 +2736,7 @@ font-size: 22px;
     }
 
     .protobutton {
-      font-size: 15;
+      font-size: 15px;
       letter-spacing: 8px;
       font-weight: 200;
     }
@@ -2772,7 +2773,7 @@ font-size: 22px;
     }
 
     .top {
-      font-size: 15;
+      font-size: 15px;
       letter-spacing: 8px;
       font-weight: 200;
     }
