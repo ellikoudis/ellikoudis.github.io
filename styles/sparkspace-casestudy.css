@@ -2249,8 +2249,9 @@ nav ul li {
   }
 
   .mockbutton {
-    font-size: 16;
+    font-size: 15;
     letter-spacing: 8px;
+    font-weight: 200;
   }
 
   .button7 {
@@ -2428,8 +2429,9 @@ font-size: 22px;
       margin-top: 2rem;
     }
     .prototypebutton {
-      font-size: 16px;
+      font-size: 15px;
       letter-spacing: 8px;
+      font-weight: 200;
     }
     .movebutton {
       position: absolute;
@@ -2516,8 +2518,9 @@ font-size: 22px;
     }
 
     .compbutton {
-      font-size: 16;
+      font-size: 15;
       letter-spacing: 8px;
+      font-weight: 200;
     }
 
     .button2 {
@@ -2592,8 +2595,9 @@ font-size: 22px;
     }
 
     .userbutton {
-      font-size: 16;
+      font-size: 15;
       letter-spacing: 8px;
+      font-weight: 200;
     }
 
     .button4 {
@@ -2626,7 +2630,7 @@ font-size: 22px;
     }
 
     .wireframesbutton5 {
-      font-size: 16;
+      font-size: 15;
       letter-spacing: 8px;
     }
 
@@ -2731,8 +2735,9 @@ font-size: 22px;
     }
 
     .protobutton {
-      font-size: 16;
+      font-size: 15;
       letter-spacing: 8px;
+      font-weight: 200;
     }
 
     .button8 {
@@ -2767,8 +2772,9 @@ font-size: 22px;
     }
 
     .top {
-      font-size: 16;
+      font-size: 15;
       letter-spacing: 8px;
+      font-weight: 200;
     }
 
     .totop {
