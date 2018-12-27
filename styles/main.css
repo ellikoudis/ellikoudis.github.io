@@ -271,17 +271,15 @@ nav ul li {
 }
 
 .ssbutton {
-  border-bottom: 1px solid #fff;
+  border-bottom: .5px solid #fff;
   padding-bottom: 3px;
   color: white;
-  width: 356px;
   white-space: nowrap;
   z-index: 2;
   position: relative;
-  width: 302px;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 8px;
   margin-top: -18rem;
 }
@@ -336,7 +334,7 @@ nav ul li {
   }
 
   .gallerybutton {
-    border-bottom: 1px solid #fff;
+    border-bottom: .5px solid #fff;
     padding-bottom: 3px;
     color: white;
     white-space: nowrap;
@@ -345,7 +343,7 @@ nav ul li {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 8px;
   }
 
@@ -809,7 +807,6 @@ nav ul li {
       padding-bottom: 3px;
       white-space: nowrap;
       z-index: 2;
-      width: 195px;
       color: white;
       font-family: 'Montserrat', sans-serif;
       font-weight: normal;
