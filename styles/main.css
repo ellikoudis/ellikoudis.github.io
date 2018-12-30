@@ -759,13 +759,14 @@ nav ul li {
 
 
     #section-next {
+      height: inherit;
     }
 
     .info1 {
       margin-top: 4rem;
       width: 400px;
       margin-left: 41px;
-      margin-top: -12.2rem;
+      margin-top: -10.2rem;
       position: static;
       z-index: 2;
       height: 100px;
@@ -773,9 +774,9 @@ nav ul li {
 
     .infocircle {
       width: 28rem;
+      position: relative;
       z-index: 1;
       margin-bottom: 0px;
-      margin-top: 40rem;
     }
 
     .sslogo {
@@ -834,6 +835,7 @@ nav ul li {
       padding-top: 0px;
       background-repeat: no-repeat;
       margin-top: 0px;
+      height: 462px;
       padding-bottom: 0px;
     }
 
@@ -845,9 +847,6 @@ nav ul li {
     .infocircle2 {
       width: 19rem;
       min-width: 19rem;
-      display: flex;
-      align-items: center;
-      margin-top: 19rem;
     }
 
     .gallerybutton {
@@ -859,7 +858,6 @@ nav ul li {
       font-weight: normal;
       font-size: 15px;
       letter-spacing: 4px;
-      margin-top: 9rem;
     }
 
 
