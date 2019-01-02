@@ -134,7 +134,12 @@ p {
     text-decoration: none;
   }
 
-  nav ul li {
+  .nav a:hover {
+    color: #ffabf3;
+    transition: color 0.3s linear;
+  }
+
+  .nav ul li {
     display: inline-block;
   }
 
@@ -269,10 +274,12 @@ p {
       transition: color 0.3s ease;
       font-weight: 200;
       letter-spacing: 6px;
+      font-size: 1.7rem;
       }
 
     .phone a:hover {
-      font-weight: bolder;
+      color: #ffabf3;
+      transition: color 0.3s linear;
     }
 
     #menuToggle  {

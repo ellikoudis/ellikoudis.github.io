@@ -43,6 +43,7 @@ h2 {
 
 
 
+
 /* Container */
 
 
@@ -94,13 +95,18 @@ h2 {
 
 .nav a {
   color: #ffffff;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.6rem;
   letter-spacing: 7px;
   font-family: 'Montserrat', sans-serif;
   overflow: hidden;
   text-decoration: none;
   display: flex;
+}
+
+.nav a:hover {
+  color: #ffabf3;
+  transition: color 0.3s linear;
 }
 
 .nav ul {
@@ -147,7 +153,6 @@ nav ul li {
 .firstcolumn {
   position: relative;
   z-index: 2;
-
 }
 
 .secondcolumn {
@@ -246,7 +251,7 @@ nav ul li {
 
 .sparkspace h2 {
   margin-bottom: 50px;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 2.5rem;
 }
 
@@ -302,9 +307,9 @@ nav ul li {
   .infocircle2 {
     position: relative;
     z-index: 2;
-    width: 40%;
+    width: 30%;
     max-width: 35rem;
-    min-width: 28rem;
+    min-width: 25rem;
   }
 
   .gallerybutton {
@@ -316,7 +321,7 @@ nav ul li {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 8px;
     padding-left: 3px;
   }
@@ -430,18 +435,19 @@ nav ul li {
     .phone a {
       text-decoration: none;
       color: white;
-      transition: color 0.3s ease;
       font-weight: 200;
       letter-spacing: 6px;
+      font-size: 1.7rem;
+      line-height: 20px;
       }
 
     .phone a:hover {
-      font-weight: bolder;
+      color: #ffabf3;
+      transition: color 0.3s linear;
     }
 
 
-    #menuToggle
-    {
+    #menuToggle {
       display: block;
       position: relative;
       float: right;
@@ -545,7 +551,6 @@ nav ul li {
 
     #menu li {
       padding: 10px 0;
-      font-size: 22px;
       color: white;
     }
 
@@ -615,7 +620,7 @@ nav ul li {
     }
 
     .phone a:hover {
-      font-weight: 200;
+      font-weight: 300;
     }
 
     .firstsection {
@@ -790,13 +795,7 @@ nav ul li {
     }
 
     .gallerybutton {
-      padding-bottom: 3px;
-      white-space: nowrap;
-      z-index: 2;
-      color: white;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: normal;
-      font-size: 15px;
+      font-weight: 400;
       letter-spacing: 4px;
     }
 

@@ -410,7 +410,7 @@ nav ul li {
 .footerlogo{
   float: left;
   display: inline-block;
-  width: 61px;
+  width: 50px;
 }
 
 .emailicon {
@@ -467,6 +467,7 @@ nav ul li {
       transition: color 0.3s ease;
       font-weight: 200;
       letter-spacing: 6px;
+      font-size: 1.7rem;
       }
 
     .phone a:hover {

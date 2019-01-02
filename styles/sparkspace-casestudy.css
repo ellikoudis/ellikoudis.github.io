@@ -35,11 +35,11 @@ body {
 
 h1 {
   text-align: center;
-  line-height: 45.7px;
+  line-height: 40px;
   letter-spacing: 2px;
   color: white;
   width: 90%;
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   font-weight: normal;
   padding-bottom: 6rem;
 }
@@ -94,10 +94,9 @@ h6 {
 }
 
 p {
-  font-size: 2rem;
-  line-height: 50px;
-  font-weight: 20px;
-  width: 60%;
+  font-size: 1.7rem;
+  line-height: 32px;
+  width: 50%;
 }
 
 li {
@@ -195,6 +194,12 @@ a:link {
   text-decoration: none;
 }
 
+.nav a:hover {
+  color: #ffabf3;
+  transition: color 0.3s linear;
+}
+
+
 nav ul li {
   display: inline-block;
 }
@@ -244,7 +249,7 @@ nav ul li {
   white-space: nowrap;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 8px;
   margin-top: 3rem;
 }
@@ -343,7 +348,6 @@ nav ul li {
 #part1 {
   margin-left: 71px;
   margin: right 71px;
-  padding-bottom: 6rem;
 }
 
 .dl {
@@ -430,7 +434,7 @@ nav ul li {
   width: 356px;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 8px;
   border-bottom: .5px solid #fff;
   padding-bottom: 3px;
@@ -507,7 +511,7 @@ nav ul li {
 .userbutton {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 8px;
   border-bottom: .5px solid #000000;
   color: black;
@@ -637,7 +641,7 @@ nav ul li {
 .wireframesbutton5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 8px;
   border-bottom: .5px solid #000000;
   line-height: 30px;
@@ -812,7 +816,7 @@ nav ul li {
 .brandingbutton6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 8px;
   border-bottom: .5px solid #000000;
   line-height: 30px;
@@ -847,7 +851,8 @@ nav ul li {
     display: -webkit-box;
     display: flex;
     margin-top: 83px;
-    width: 90%;
+    width: 100%;
+    padding-right: 71px;
   }
 
   .hificolumn1 {
@@ -866,9 +871,10 @@ nav ul li {
     flex-flow: row wrap;
     display: -webkit-box;
     display: flex;
-    width: 90%;
+    width: 100%;
     margin-bottom: 83px;
     margin-top: -1rem;
+    padding-right: 71px;
   }
 
   .hificolumn2-1 {
@@ -1268,7 +1274,7 @@ nav ul li {
   .mockbutton {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.2rem;
     letter-spacing: 8px;
     border-bottom: .5px solid #000000;
     line-height: 30px;
@@ -1293,18 +1299,19 @@ nav ul li {
 .prototype {
   width: 100vw;
   margin-left: -71px;
-  margin-top: 10rem;
+  margin-bottom: -13rem;
+  border-top: 2px solid #62edf2;
+  border-bottom: 2px solid #62edf2;
 }
 
 .protobutton {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 16px;
   letter-spacing: 8px;
   border-bottom: .5px solid #000000;
   line-height: 30px;
   color: black;
-  white-space: nowrap;
+  font-size: 1.2rem;
 }
 
 .button8 {
@@ -1322,6 +1329,7 @@ nav ul li {
 
   #part2 {
     padding-bottom: 6rem;
+    margin-top: 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1356,7 +1364,7 @@ nav ul li {
   .totop {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.2rem;
     letter-spacing: 6px;
     border-bottom: .5px solid white;
     color: white;
@@ -1397,7 +1405,7 @@ nav ul li {
   .footerlogo{
     float: left;
     display: inline-block;
-    width: 61px;
+    width: 50px;
   }
 
   .emailicon {
@@ -1490,10 +1498,13 @@ nav ul li {
       transition: color 0.3s ease;
       font-weight: 200;
       letter-spacing: 6px;
+      font-size: 1.7rem;
+      line-height: 40px;
       }
 
     .phone a:hover {
-      font-weight: bolder;
+      color: #ffabf3;
+      transition: color 0.3s linear;
     }
 
     #menuToggle
@@ -2249,7 +2260,6 @@ nav ul li {
   }
 
   .mockbutton {
-    font-size: 15px;
     letter-spacing: 8px;
     font-weight: 300;
   }
@@ -2429,7 +2439,6 @@ font-size: 22px;
       margin-top: 2rem;
     }
     .prototypebutton {
-      font-size: 15px;
       letter-spacing: 8px;
       font-weight: 300;
     }
@@ -2518,7 +2527,6 @@ font-size: 22px;
     }
 
     .compbutton {
-      font-size: 15px;
       letter-spacing: 8px;
       font-weight: 300;
     }
@@ -2595,7 +2603,6 @@ font-size: 22px;
     }
 
     .userbutton {
-      font-size: 15px;
       letter-spacing: 8px;
       font-weight: 300;
     }
@@ -2630,7 +2637,6 @@ font-size: 22px;
     }
 
     .wireframesbutton5 {
-      font-size: 15px;
       letter-spacing: 8px;
       font-weight: 300;
     }
@@ -2734,12 +2740,12 @@ font-size: 22px;
       width: 100vw;
       margin-left: -41px;
       margin-top: 5rem;
+      margin-bottom: -11rem;
     }
 
     .protobutton {
-      font-size: 15px;
       letter-spacing: 8px;
-      font-weight: 300;
+      font-weight: 400;
     }
 
     .button8 {
