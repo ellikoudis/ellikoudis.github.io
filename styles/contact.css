@@ -109,7 +109,7 @@ p {
 
   .nav a {
     color: #ffffff;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.6rem;
     letter-spacing: 7px;
     font-family: 'Montserrat', sans-serif;
@@ -141,6 +141,15 @@ p {
 
   .nav ul li {
     display: inline-block;
+  }
+
+  #current a {
+    color: #c59cff;
+    font-weight: 600;
+  }
+
+  #current a:hover {
+    color: #ffabf3;
   }
 
   .hamburgermenu {
@@ -245,6 +254,7 @@ p {
       min-width: 160px;
       z-index: 1;
     }
+
     .dropdown-content a {
       float: none;
       padding: 12px 16px;
@@ -374,7 +384,6 @@ p {
 
     #menu li  {
       padding: 10px 0;
-      font-size: 22px;
       color: white;
     }
 
@@ -455,8 +464,8 @@ p {
       margin-top: -50px;
       background: linear-gradient(135deg, rgba(75,0,231,1) 0%,rgba(166,5,193,1) 15%,rgba(255,62,74,1) 35%);
       border-radius: 100%;
-      width: 950%;
-      height: 950%;
+      width: 1000%;
+      height: 1000%;
       background-size: 120rem;
       z-index: -1;
       padding-right:101px;
@@ -470,6 +479,10 @@ p {
     #menu li{
       width: 100%;
       text-align: right;
+    }
+
+    #current a {
+      font-weight: 600;
     }
 
     .phone a:hover {

@@ -170,7 +170,7 @@ li {
 
 .nav a {
   color: #ffffff;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.6rem;
   letter-spacing: 7px;
   font-family: 'Montserrat', sans-serif;
@@ -202,6 +202,15 @@ a:link {
 
 nav ul li {
   display: inline-block;
+}
+
+#current a {
+  color: #c59cff;
+  font-weight: 600;
+}
+
+#current a:hover {
+  color: #ffabf3;
 }
 
 .hamburgermenu {
@@ -406,7 +415,7 @@ nav ul li {
 
 .vl3 {
     border-left: 1px solid black;
-    height: 135rem;
+    height: 112rem;
     position: absolute;
     margin-left: 40%;
     margin-top: 10rem;
@@ -2417,6 +2426,10 @@ font-size: 22px;
     .phone  {
       font-weight: 400;
       font-size: 14px;
+    }
+
+    #current a {
+      font-weight: 600;
     }
 
 
