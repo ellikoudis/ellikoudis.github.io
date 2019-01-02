@@ -27,7 +27,7 @@ h1 {
 }
 
 p {
-  line-height: 4.5rem;
+  line-height: 3.5rem;
   font-size: 1.9rem;
   font-weight: 200;
   max-width: 500px;
@@ -161,6 +161,10 @@ a:link {
 .firstcolumn {
   position: relative;
   z-index: 2;
+}
+
+.firstcolumn p {
+  margin-top: 6rem;
 }
 
 .secondcolumn {
