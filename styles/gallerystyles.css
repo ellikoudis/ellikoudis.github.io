@@ -128,6 +128,11 @@ a:link {
   text-decoration: none;
 }
 
+.nav a:hover {
+  color: #ffabf3;
+  transition: color 0.3s linear;
+}
+
 nav ul li {
   display: inline-block;
 }
@@ -472,7 +477,8 @@ nav ul li {
       }
 
     .phone a:hover {
-      font-weight: bolder;
+      color: #ffabf3;
+      transition: color 0.3s linear;
     }
 
 
