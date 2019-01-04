@@ -272,11 +272,18 @@ a:link {
 
 .ssbutton {
   border-bottom: 1px solid #fff;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
   color: white;
   font-size: 1.2rem;
   letter-spacing: 8px;
   padding-left: 3px;
+}
+
+.ssbutton:hover {
+  color: #ffabf3;
+  font-weight: bold;
+  transition: color 0.3s linear;
+  border-bottom: 2px solid #ffabf3;
 }
 
 .sparkspace-wrapper:before{
@@ -329,7 +336,7 @@ a:link {
 
   .gallerybutton {
     border-bottom: 1px solid #fff;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
     color: white;
     z-index: 3;
     position: absolute;
@@ -339,6 +346,13 @@ a:link {
     font-size: 1.2rem;
     letter-spacing: 8px;
     padding-left: 3px;
+  }
+
+  .gallerybutton:hover {
+    color: #ffabf3;
+    font-weight: bold;
+    transition: color 0.3s linear;
+    border-bottom: 2px solid #ffabf3;
   }
 
 

@@ -227,6 +227,12 @@ p {
     padding-left: 15px;
   }
 
+  #emailme a h2:hover {
+    color: #ffabf3;
+    font-weight: bold;
+    transition: color 0.3s linear;
+  }
+
 
 
   @media only screen and (max-width: 1024px) {

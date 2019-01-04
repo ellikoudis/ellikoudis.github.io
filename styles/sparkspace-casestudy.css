@@ -95,17 +95,17 @@ h6 {
 
 p {
   font-size: 1.7rem;
-  line-height: 32px;
+  line-height: 1.5;
   width: 50%;
 }
 
 li {
   font-size: 2rem;
-  font-weight: normal;
   line-height: 4.1rem;
   list-style-type: none;
   letter-spacing: .5px;
   color: white;
+  font-weight: 200;
 }
 
 
@@ -261,6 +261,15 @@ nav ul li {
   font-size: 12px;
   letter-spacing: 8px;
   margin-top: 3rem;
+  padding-left: 3px;
+  line-height: 25px;
+}
+
+.prototypebutton:hover {
+  color: #ffabf3;
+  font-weight: bold;
+  transition: color 0.3s linear;
+  border-bottom: 2px solid #ffabf3;
 }
 
 .movebutton {
@@ -415,7 +424,7 @@ nav ul li {
 
 .vl3 {
     border-left: 1px solid black;
-    height: 112rem;
+    height: 105rem;
     position: absolute;
     margin-left: 40%;
     margin-top: 10rem;
@@ -445,18 +454,26 @@ nav ul li {
   font-weight: normal;
   font-size: 12px;
   letter-spacing: 8px;
-  border-bottom: .5px solid #fff;
-  padding-bottom: 3px;
+  border-bottom: .5px solid #000000;
+  padding-bottom: 5px;
   width: 356px;
-  color: white;
-  white-space: nowrap;
+  color: black;
+  padding-left: 3px;
+  line-height: 35px;
 }
 
 .button2 {
   text-align: center;
-  margin-top: -35rem;
+  margin-top: -20rem;
   padding-bottom: 70px;
   margin-left: -71px;
+}
+
+.compbutton:hover {
+  color: #ffabf3;
+  font-weight: bold;
+  transition: color 0.3s linear;
+  border-bottom: 2px solid #ffabf3;
 }
 
 .compcontainer {
@@ -526,6 +543,7 @@ nav ul li {
   color: black;
   white-space: nowrap;
   line-height: 30px;
+  padding-left: 3px;
 }
 
 .button4 {
@@ -534,6 +552,14 @@ nav ul li {
   justify-content: center;
   margin-left: -20px;
   padding-bottom: 0px;
+}
+
+
+.userbutton:hover {
+  color: #ffabf3;
+  font-weight: bold;
+  transition: color 0.3s linear;
+  border-bottom: 2px solid #ffabf3;
 }
 
 .phoneflowcontainer {
@@ -656,6 +682,7 @@ nav ul li {
   line-height: 30px;
   color: black;
   white-space: nowrap;
+  padding-left: 3px;
 }
 
 .button5 {
@@ -665,6 +692,13 @@ nav ul li {
   margin-top: 85px;
   margin-bottom: 50px;
   margin-left: -20px;
+}
+
+.wireframesbutton:hover {
+  color: #ffabf3;
+  font-weight: bold;
+  transition: color 0.3s linear;
+  border-bottom: 2px solid #ffabf3;
 }
 
 
@@ -755,8 +789,10 @@ nav ul li {
 }
 
 .testlogos {
-  width: 60%;
+  width: 45%;
   z-index: 1;
+  max-width: 500px;
+  min-width: 350px;
 }
 
 .colors{
@@ -831,7 +867,7 @@ nav ul li {
   line-height: 30px;
   color: black;
   white-space: nowrap;
-
+  padding-left: 3px;
 }
 
 .button6 {
@@ -841,6 +877,13 @@ nav ul li {
   margin-top: 85px;
   margin-bottom: 50px;
   margin-left: -20px;
+}
+
+.brandingbutton6:hover {
+  color: #ffabf3;
+  font-weight: bold;
+  transition: color 0.3s linear;
+  border-bottom: 2px solid #ffabf3;
 }
 
 
@@ -1012,7 +1055,6 @@ nav ul li {
   width: 25%;
   text-align: center;
   margin-top: 28px;
-  margin-left: 1rem;
 }
 
 .test1part2 {
@@ -1112,7 +1154,6 @@ nav ul li {
 .test2part1 {
   width: 100%;
   text-align: center;
-  margin-left: 1rem;
 }
 
 .test2part2 {
@@ -1140,7 +1181,6 @@ nav ul li {
 .test2part3 {
   width: 100%;
   text-align: center;
-  margin-left: 1rem;
 }
 
 .test2part4 {
@@ -1228,7 +1268,6 @@ nav ul li {
 .test3part1 {
   width: 100%;
   text-align: center;
-  margin-left: 1rem;
 }
 
 .test3part2 {
@@ -1289,6 +1328,7 @@ nav ul li {
     line-height: 30px;
     color: black;
     white-space: nowrap;
+    padding-left: 3px;
   }
 
   .button7 {
@@ -1298,6 +1338,13 @@ nav ul li {
     margin-left: -20px;
     margin-top: 11rem;
     margin-bottom: 13rem;
+  }
+
+  .mockbutton:hover {
+    color: #ffabf3;
+    font-weight: bold;
+    transition: color 0.3s linear;
+    border-bottom: 2px solid #ffabf3;
   }
 
 
@@ -1321,6 +1368,7 @@ nav ul li {
   line-height: 30px;
   color: black;
   font-size: 1.2rem;
+  padding-left: 3px;
 }
 
 .button8 {
@@ -1332,6 +1380,13 @@ nav ul li {
   margin-bottom: 13rem;
 }
 
+
+.protobutton:hover {
+  color: #ffabf3;
+  font-weight: bold;
+  transition: color 0.3s linear;
+  border-bottom: 2px solid #ffabf3;
+}
 
 /* Conclusion */
 
@@ -1379,6 +1434,7 @@ nav ul li {
     color: white;
     white-space: nowrap;
     line-height: 30px;
+    padding-left: 3px;
   }
 
   .top {
@@ -1388,6 +1444,13 @@ nav ul li {
     margin-left: -20px;
     margin-top: 2rem;
     margin-bottom: 20rem;
+  }
+
+  .totop:hover {
+    color: #ffabf3;
+    font-weight: bold;
+    transition: color 0.3s linear;
+    border-bottom: 2px solid #ffabf3;
   }
 
 
@@ -1719,6 +1782,11 @@ nav ul li {
 
     /* Competitive AnalysisView */
 
+
+    .compbutton {
+      border-bottom: .5px solid #ffffff;
+      color: white;
+    }
 
     .button2 {
       margin-top: -30rem;
