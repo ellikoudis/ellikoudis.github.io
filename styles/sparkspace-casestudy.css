@@ -474,10 +474,6 @@ nav ul li {
   border-bottom: 1px solid #ffabf3;
 }
 
-.compcontainer {
-  margin-top: 96px;
-}
-
 .compimgphone {
   display: none;
 }
@@ -728,6 +724,14 @@ nav ul li {
   z-index: 0;
 }
 
+.id {
+  max-width: 350px;
+}
+
+.mood {
+  max-width: 350px;
+}
+
 .identity {
   width: 100vw;
   display: -ms-flexbox;
@@ -785,7 +789,7 @@ nav ul li {
 }
 
 .testlogos {
-  width: 45%;
+  width: 50%;
   z-index: 1;
   max-width: 500px;
   min-width: 350px;
@@ -1775,13 +1779,8 @@ nav ul li {
     /* Competitive AnalysisView */
 
 
-    .compbutton {
-      border-bottom: .5px solid #ffffff;
-      color: white;
-    }
-
     .button2 {
-      margin-top: -30rem;
+      margin-top: -15rem;
     }
   }
 
@@ -2602,6 +2601,8 @@ font-size: 22px;
     .compbutton {
       letter-spacing: 8px;
       font-weight: 300;
+      color: white;
+      border-bottom: 1px solid white;
     }
 
     .button2 {
