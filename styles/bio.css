@@ -230,6 +230,11 @@ a:link {
     margin-bottom: 8rem;
   }
 
+  .contactme:hover {
+    color: #ffabf3;
+    transition: color 0.3s linear;
+    border-bottom: 1px solid #ffabf3;
+  }
 
 
 
