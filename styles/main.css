@@ -329,9 +329,7 @@ a:link {
   .infocircle2 {
     position: relative;
     z-index: 2;
-    width: 30%;
-    max-width: 35rem;
-    min-width: 25rem;
+    width: 25rem;
   }
 
   .gallerybutton {
