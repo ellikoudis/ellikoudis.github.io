@@ -38,13 +38,28 @@ h2 {
 
 p {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 3rem;
+  line-height: 1.5;
   font-size: 16.5px;
+  font-weight: 100;
+  width: 80%;
+  margin-bottom: 24px;
+  margin-left: 68px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 2rem;
+  font-size: 14.5px;
   font-weight: 100;
   width: 80%;
   margin-bottom: 74px;
   margin-left: 68px;
   letter-spacing: 1.5px;
+  color: grey;
+  border-left: 1px solid grey;
+  padding-left: 20px;
+
 }
 
 
@@ -897,7 +912,7 @@ h2 {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 1.5;
   font-size: 15px;
   font-weight: lighter;
   width: 80%;
@@ -905,5 +920,20 @@ p {
   margin-left: 19px;
   line-height: 30px;
   letter-spacing: 1px;
+}
+
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  font-size: 14.5px;
+  font-weight: 100;
+  width: 80%;
+  margin-bottom: 74px;
+  margin-left: 19px;
+  letter-spacing: 1.5px;
+  color: grey;
+  border-left: 1px solid grey;
+  padding-left: 20px;
+
 }
 }

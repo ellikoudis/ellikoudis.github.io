@@ -267,9 +267,8 @@ nav ul li {
 
 .prototypebutton:hover {
   color: #ffabf3;
-  font-weight: bold;
   transition: color 0.3s linear;
-  border-bottom: 2px solid #ffabf3;
+  border-bottom: 1px solid #ffabf3;
 }
 
 .movebutton {
@@ -471,9 +470,8 @@ nav ul li {
 
 .compbutton:hover {
   color: #ffabf3;
-  font-weight: bold;
   transition: color 0.3s linear;
-  border-bottom: 2px solid #ffabf3;
+  border-bottom: 1px solid #ffabf3;
 }
 
 .compcontainer {
@@ -557,9 +555,8 @@ nav ul li {
 
 .userbutton:hover {
   color: #ffabf3;
-  font-weight: bold;
   transition: color 0.3s linear;
-  border-bottom: 2px solid #ffabf3;
+  border-bottom: 1px solid #ffabf3;
 }
 
 .phoneflowcontainer {
@@ -694,11 +691,10 @@ nav ul li {
   margin-left: -20px;
 }
 
-.wireframesbutton:hover {
+.wireframesbutton5:hover {
   color: #ffabf3;
-  font-weight: bold;
   transition: color 0.3s linear;
-  border-bottom: 2px solid #ffabf3;
+  border-bottom: 1px solid #ffabf3;
 }
 
 
@@ -881,9 +877,8 @@ nav ul li {
 
 .brandingbutton6:hover {
   color: #ffabf3;
-  font-weight: bold;
   transition: color 0.3s linear;
-  border-bottom: 2px solid #ffabf3;
+  border-bottom: 1px solid #ffabf3;
 }
 
 
@@ -1342,9 +1337,8 @@ nav ul li {
 
   .mockbutton:hover {
     color: #ffabf3;
-    font-weight: bold;
     transition: color 0.3s linear;
-    border-bottom: 2px solid #ffabf3;
+    border-bottom: 1px solid #ffabf3;
   }
 
 
@@ -1383,9 +1377,8 @@ nav ul li {
 
 .protobutton:hover {
   color: #ffabf3;
-  font-weight: bold;
   transition: color 0.3s linear;
-  border-bottom: 2px solid #ffabf3;
+  border-bottom: 1px solid #ffabf3;
 }
 
 /* Conclusion */
@@ -1448,9 +1441,8 @@ nav ul li {
 
   .totop:hover {
     color: #ffabf3;
-    font-weight: bold;
     transition: color 0.3s linear;
-    border-bottom: 2px solid #ffabf3;
+    border-bottom: 1px solid #ffabf3;
   }
 
 
