@@ -2963,7 +2963,6 @@ font-size: 22px;
       color: white;
       padding-top: 4rem;
       margin-bottom: 0px;
-      margin-left: -20px;
     }
 
     .finaltype {
@@ -3030,6 +3029,20 @@ font-size: 22px;
 }
 
 
+@media only screen and (max-width: 450px) {
+
+  .blackdiag2 {
+    margin-top: -108rem;
+  }
+
+  .abouttest2 {
+    margin-top: 15rem;
+  }
+
+  .test3 {
+    margin-top: 32rem;
+  }
+}
 
 
 
@@ -3039,15 +3052,16 @@ font-size: 22px;
   /* Test 2 */
 
   .abouttest2 {
-    margin-top: 10rem;
+    margin-top: 12rem;
   }
 
   .blackdiag2 {
-    margin-top: -94rem;
+    width: 120vw;
+    margin-top: -108rem;
   }
 
   .test3 {
-    margin-top: 26rem;
+    margin-top: 35rem;
   }
 
   .blackdiag3 {
