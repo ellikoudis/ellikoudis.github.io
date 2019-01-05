@@ -234,7 +234,7 @@ nav ul li {
 .sslogo {
   padding-bottom: 5rem;
   width: 100%;
-  min-width: 30rem;
+  min-width: 20rem;
   max-width: 40rem;
   margin-top: 6rem;
 }
@@ -2612,8 +2612,7 @@ font-size: 22px;
       margin-right: 41px;
     }
     .sslogo {
-      min-width: 20rem;
-      max-width: 60rem;
+      width: 28rem;
     }
 
     .sscomputer {
