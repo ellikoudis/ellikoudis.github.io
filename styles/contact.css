@@ -79,6 +79,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background: linear-gradient(0.30turn, #0000aa 3.25%, #df0052 76%, #ff0026 100%);
+  min-height: 100vh;
 }
 
 .firstsection {

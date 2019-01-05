@@ -33,22 +33,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-h1 {
-  text-align: center;
-  line-height: 40px;
-  letter-spacing: 2px;
-  color: white;
-  width: 90%;
-  font-size: 2.2rem;
-  font-weight: normal;
-  padding-bottom: 6rem;
-}
 
 h2 {
   font-size: 2.9rem;
   font-weight: 200;
-  margin-top: 100px;
-  margin-bottom: 5.4rem;
+  margin-top: 50px;
+  margin-bottom: 1.4rem;
   letter-spacing: 8px;
   line-height: 60px;
 }
@@ -61,10 +51,9 @@ h3 {
   font-weight: 100;
   color: black;
   text-align: center;
-  margin-top: 12.5rem;
+  margin-top: 9.5rem;
   margin-bottom: 12.5rem;
   line-height: 92px;
-  margin-left: -21px;
 }
 
 
@@ -72,8 +61,7 @@ h4 {
   font-size: 2.5rem;
   font-weight: 100;
   font-style: italic;
-  margin-top: 107px;
-  margin-bottom: 5.4rem;
+  margin-bottom: 2.4rem;
 }
 
 h5 {
@@ -96,7 +84,6 @@ h6 {
 p {
   font-size: 1.7rem;
   line-height: 1.5;
-  width: 50%;
 }
 
 li {
@@ -120,6 +107,12 @@ li {
   margin: 0 auto;
   overflow: hidden;
   width: 100vw;
+}
+
+.ps {
+  margin: auto;
+  max-width: 550px;
+  padding: 0 20px;
 }
 
 
@@ -240,8 +233,9 @@ nav ul li {
 .sslogo {
   padding-bottom: 5rem;
   width: 100%;
-  min-width: 40rem;
-  max-width: 80rem;
+  min-width: 30rem;
+  max-width: 40rem;
+  margin-top: 6rem;
 }
 
 .opentext {
@@ -249,6 +243,18 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color: white;
+  width: 90%;
+  font-size: 2.2rem;
+  font-weight: normal;
+  padding-bottom: 6rem;
+  max-width: 700px;
 }
 
 .prototypebutton {
@@ -363,8 +369,8 @@ nav ul li {
 
 
 #part1 {
-  margin-left: 71px;
-  margin: right 71px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .dl {
@@ -382,27 +388,27 @@ nav ul li {
 
 
 .surveyrow {
-  width: 100%;
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
 }
 
 .surveytext {
-  width: 70%;
+  max-width: 500px;
 }
 
 .surveytext2 {
-  width: 70%;
+  max-width: 500px;
   margin-top: 79px;
 }
 
-.surveycolumn {
-  float: left;
-  width: 50%;
+.surveycolumn:nth-of-type(1) {
+border-right: 1px solid;
+padding-right: 30px;
 }
 
-.surveyrow:after {
-  content: "";
-  display: table;
-  clear: both;
+.surveycolumn:nth-of-type(2) {
+padding-left: 30px;
 }
 
 .keytakeaways {
@@ -411,25 +417,13 @@ nav ul li {
 
 .surveyimg {
   margin-top: 6.2rem;
-  width: 70%;
-  min-width: 45rem;
-  max-width: 180rem;
+  max-width: 50rem;
   margin-left: -18px;
 }
 
 .surveyphone {
   display: none;
 }
-
-.vl3 {
-    border-left: 1px solid black;
-    height: 105rem;
-    position: absolute;
-    margin-left: 40%;
-    margin-top: 10rem;
-    z-index: 3;
-}
-
 
 
 /* Competitive Analysis */
@@ -442,7 +436,8 @@ nav ul li {
   z-index: -1;
   padding-bottom: 155px;
   width: 100vw;
-  margin-left: -71px;
+  margin-left: -20px;
+
 }
 
 .compbutton {
@@ -465,13 +460,16 @@ nav ul li {
   text-align: center;
   margin-top: -20rem;
   padding-bottom: 70px;
-  margin-left: -71px;
 }
 
 .compbutton:hover {
   color: #ffabf3;
   transition: color 0.3s linear;
   border-bottom: 1px solid #ffabf3;
+}
+
+.compimgsm {
+  display: none;
 }
 
 .compimgphone {
@@ -493,13 +491,17 @@ nav ul li {
 
 .persimg {
   margin-top: 73px;
-  width: 91%;
+  width: 100%;
+  margin-left: -15px;
 }
 
 .persphone {
   display: none;
 }
 
+.smuserpers {
+  display: none;
+}
 
 
 
@@ -512,7 +514,7 @@ nav ul li {
 
 .flowimg {
   z-index: -1;
-  margin-top: -310px;
+  margin-top: -210px;
   width: 130%;
 }
 
@@ -563,9 +565,6 @@ nav ul li {
 
 /* Wireframes */
 
-
-
-
 .wirerow1 {
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
@@ -575,14 +574,13 @@ nav ul li {
   display: -webkit-box;
   display: flex;
   margin-top: 83px;
-  margin-right: 71px;
 }
 
 .wirecolumn1 {
   -webkit-box-flex: auto;
   -ms-flex: auto;
   flex: auto;
-  width: 36%;
+  width: 48%;
   margin: .5vw;
 }
 
@@ -600,7 +598,6 @@ nav ul li {
   flex-flow: row wrap;
   display: -webkit-box;
   display: flex;
-  margin-right: 71px;
 }
 
 .wirecolumn2-1 {
@@ -637,7 +634,6 @@ nav ul li {
   flex-flow: row wrap;
   display: -webkit-box;
   display: flex;
-  margin-right: 71px;
 }
 
 .wirecolumn3-1 {
@@ -711,7 +707,7 @@ nav ul li {
 }
 
 .branding {
-  margin-left: -71px;
+  margin-left: -20px;
   }
 
 .bigcircleimg {
@@ -747,14 +743,13 @@ nav ul li {
 .titlerow {
   position: absolute;
   margin-top: 64rem;
-  margin-left: 71px;
   width: 200px;
 }
 
 .imagerow {
   position: absolute;
   margin-top: 74rem;
-  margin-left: 71px;
+  margin-left: 20px;
 }
 
 .identityrow {
@@ -766,8 +761,7 @@ nav ul li {
   display: -webkit-box;
   display: flex;
   z-index: 1;
-  margin-left: 71px;
-  margin-right: 71px;
+  margin-left: 20px;
   align-items: flex-start;
   position: absolute;
   margin-top: 10rem;
@@ -792,16 +786,22 @@ nav ul li {
   width: 50%;
   z-index: 1;
   max-width: 500px;
-  min-width: 350px;
+  padding-left: 20px;
+}
+
+.addpad {
+  padding-left: 20px;
 }
 
 .colors{
-  width: 60%;
+  max-width: 800px;
+  width: 80%;
   height: auto;
 }
 
 .fonts{
-  width: 60%;
+  max-width: 800px;
+  width: 80%;
   height: auto;
   margin-top: 2rem;
 }
@@ -814,9 +814,10 @@ nav ul li {
   flex-flow: row wrap;
   display: -webkit-box;
   display: flex;
-  margin-right: 71px;
-  width: 95%;
   margin-top: -3rem;
+  margin-right: -20px;
+  align-items: center;
+  margin-left: -10px;
 }
 
 .markscolumn {
@@ -839,11 +840,14 @@ nav ul li {
   color: white;
   width: 100%;
   margin-top: 4rem;
+  padding-left: 15px;
+  margin-bottom: 3.4rem;
 }
 
 .visualtitle2 {
   z-index: 1;
   margin-top: -2rem;
+  margin-bottom: 3.4rem;
 }
 
 .visualtitle3 {
@@ -891,7 +895,9 @@ nav ul li {
   /* Hifi Mockups */
 
 
-
+.mockmove {
+  margin-top: 70px;
+}
 
   .hifirow1 {
     display: -ms-flexbox;
@@ -901,9 +907,7 @@ nav ul li {
     flex-flow: row wrap;
     display: -webkit-box;
     display: flex;
-    margin-top: 83px;
     width: 100%;
-    padding-right: 71px;
   }
 
   .hificolumn1 {
@@ -925,7 +929,6 @@ nav ul li {
     width: 100%;
     margin-bottom: 83px;
     margin-top: -1rem;
-    padding-right: 71px;
   }
 
   .hificolumn2-1 {
@@ -962,18 +965,18 @@ nav ul li {
 /* Test 1 */
 
 .test1 {
-  margin-bottom: 6rem;
+  margin-top: 70px;
+  margin-bottom: 4rem;
 }
 
 .preftest1 {
-  margin-left: -71px;
   }
 
 .bigcircle2img {
   margin-top: 2rem;
   width: 100%;
   max-width: 1200px;
-  margin-left: -2px;
+  margin-left: -20px;
   position: static;
   z-index: 0;
 }
@@ -999,11 +1002,10 @@ nav ul li {
   display: -webkit-box;
   display: flex;
   z-index: 1;
-  margin-left: 71px;
-  margin-right: 71px;
   align-items: flex-start;
   position: absolute;
   margin-bottom: 10rem;
+  margin-right: 20px;
 }
 
 .test1column1 {
@@ -1047,28 +1049,32 @@ nav ul li {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .test1part1 {
-  width: 25%;
-  text-align: center;
-  margin-top: 28px;
+  display: flex;
+  justify-content: center;
 }
 
 .test1part2 {
   color: white;
-  margin-top: 15px;
-  margin-right: 2rem;
-  width: 70%;
-}
-
-.response1 {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
 }
 
 .letter {
   color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  background: #3e0043;
+  margin-bottom: 5px;
+  margin-top: 10px;
+
 }
 
 .blackdiag {
@@ -1089,12 +1095,12 @@ nav ul li {
 
 .test2row {
   z-index: 1;
-  margin-right: 71px;
   position: relative;
   margin-bottom: 10rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  margin-right: -1rem;
 }
 
 .test2cell  {
@@ -1130,7 +1136,7 @@ nav ul li {
   z-index: 0;
   margin-top: 20rem;
   width: 100vw;
-  margin-left: -71px;
+  margin-left: -20px;
 }
 
 .textblock2 {
@@ -1140,6 +1146,7 @@ nav ul li {
   border-radius: 18px;
   padding-bottom: 2rem;
   margin-bottom: 1rem;
+  margin-top: 42px;
 }
 
 .percent2 {
@@ -1231,6 +1238,7 @@ nav ul li {
 
 .test3 {
   margin-bottom: 6rem;
+  margin-top: 8rem;
 }
 
 
@@ -1238,11 +1246,10 @@ nav ul li {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding-right: 71px;
 }
 
 .cell  {
-  width: 33%;
+  width: 20%;
   padding-right: 1rem;
 }
 
@@ -1252,34 +1259,33 @@ nav ul li {
 }
 
 .textblock4 {
-  flex-wrap: wrap;
+  position: relative;
+  display: flex;
   background-color: black;
-  width: 100%;
+  width: 75%;
   border-radius: 18px;
-  padding-bottom: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 5rem;
 }
 
-.percent4 {
-  margin-top: 3.5rem;
+.textinbox4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 2rem;
 }
 
 .test3part1 {
-  width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .test3part2 {
   color: white;
-  margin-top: 15px;
-  margin-left: 4.5rem;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
 }
 
-.response4 {
-  width: 70%;
-  margin-bottom: 2rem;
-}
 
 .blackdiag3 {
   display: none;
@@ -1294,12 +1300,13 @@ nav ul li {
     width: 100vw;
     position: static;
     z-index: 1;
-    margin-left: -71px;
+    margin-left: -20px;
   }
 
   .mockups2 {
-    width: 91%;
     margin-top: 10rem;
+    width: 100vw;
+    margin-left: -20px;
   }
 
   .mockups1-2 {
@@ -1352,8 +1359,8 @@ nav ul li {
 
 .prototype {
   width: 100vw;
-  margin-left: -71px;
-  margin-bottom: -13rem;
+  margin-left: -20px;
+  margin-bottom: -10rem;
   border-top: 2px solid #62edf2;
   border-bottom: 2px solid #62edf2;
 }
@@ -1400,7 +1407,7 @@ nav ul li {
   }
 
   .finalsection {
-    margin-left: 71px;
+    margin-left: 20px;
   }
 
   .conctitle {
@@ -1410,7 +1417,7 @@ nav ul li {
 
   .movefinaltype {
     display: flex;
-    margin-left: -71px;
+    margin-left: -20px;
     align-items: center;
     justify-content: center;
   }
@@ -1420,6 +1427,13 @@ nav ul li {
     text-align: center;
     width: 60%;
     padding-bottom: 20rem;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    max-width: 700px;
   }
 
   .totop {
@@ -1690,17 +1704,6 @@ nav ul li {
     {
       transform: none;
     }
-
-
-
-    /* Test 1 */
-
-
-
-    .test1part1 {
-      margin-left: 2.5rem;
-      margin-right: 2.5rem;
-    }
   }
 
 
@@ -1712,22 +1715,31 @@ nav ul li {
 
     /* User Surveys under 1000px*/
 
-
-    p {
-      min-width: 75%;
+    .surveyrow {
+      flex-direction: column;
     }
 
     .surveycolumn {
-      float: left;
-      width: 100%;
+      margin: auto;
+    }
+
+    .surveycolumn:nth-child(1) {
+      border-right: none;
+      padding-right: 0px;
+    }
+
+    .surveycolumn:nth-child(2) {
+      padding-left: 0px;
+    }
+
+    .survey2 {
+      margin-top: 70px;
     }
 
     .surveytext {
-      width: 70%;
     }
 
     .surveytext2 {
-      width: 70%;
       margin-top: 45px;
     }
 
@@ -1736,7 +1748,7 @@ nav ul li {
     }
 
     .surveyphone {
-      display: inline;
+      display: flex;
       width: 60%;
       margin-top: 53px;
       max-width: 40rem;
@@ -1776,11 +1788,57 @@ nav ul li {
   @media only screen and (max-width: 860px) {
 
 
-    /* Competitive AnalysisView */
+    /* Competitive Analysis View */
 
 
     .button2 {
       margin-top: -15rem;
+    }
+
+    .compimg {
+      display: none;
+    }
+
+    .compimgsm {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      margin-top: 5rem;
+      margin-bottom: 20rem;
+      align-items: center;
+    }
+
+    .compet1 {
+      max-width: 400px;
+    }
+    .compet2 {
+      max-width: 400px;
+    }
+    .compet3 {
+      max-width: 400px;
+    }
+
+
+    /* User Personas View */
+
+    .persimg {
+      display: none;
+    }
+
+    .smuserpers {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      margin-top: 5rem;
+      margin-bottom: 20rem;
+      align-items: center;
+    }
+
+    .userperssm {
+      max-width: 550px;
+    }
+    .userperssm2 {
+      max-width: 550px;
     }
   }
 
@@ -1825,6 +1883,13 @@ nav ul li {
     .vl2 {
       display: none;
     }
+
+  /* Branding & identity */
+
+    .testlogos {
+      width: 40%;
+      max-width: 300px;
+    }
   }
 
 
@@ -1861,14 +1926,6 @@ nav ul li {
     }
 
 
-    /* Branding & Identity */
-
-
-    .testlogos {
-      width: 45%;
-    }
-
-
     /* Hifi Mockups */
 
 
@@ -1897,10 +1954,6 @@ nav ul li {
       width: 100%;
     }
 
-    .test1part1 {
-      margin-left: 2.5rem;
-    }
-
     .test1column1 {
       width: 100%;
       margin-top: 0px;
@@ -1911,11 +1964,6 @@ nav ul li {
       width: 100%;
       margin-top: 0px;
       margin-bottom: 0px;
-    }
-
-    .letter {
-      color: black;
-      padding-bottom: 3rem;
     }
 
 
@@ -1962,34 +2010,26 @@ nav ul li {
       margin-bottom: 0px;
     }
 
-    .letter2 {
-      color: black;
-      padding-bottom: 3rem;
-    }
-
-    .letter3 {
-      padding-bottom: 3rem;
-      color: black;
-    }
-
-    .letter4 {
-      padding-bottom: 3rem;
-    }
-
 
     /* Test 3 */
 
 
     .cell  {
-      width: 100%;
+      width: 60%;
       margin-bottom: 4rem;
     }
 
-    .response4 {
-      width: 80%;
-      margin-bottom: 2rem;
+    .cell img {
+      max-width: 100%;
     }
 
+    .textblock4 {
+      width: 100%;
+    }
+
+    .test3row {
+      justify-content: center;
+    }
 
 
     /* Mockups */
@@ -2038,15 +2078,12 @@ nav ul li {
   .test1part1 {
     width: 100%;
     text-align: center;
-    margin-top: 28px;
-    margin-left: 1rem;
   }
 
   .test1part2 {
-    width: 85%;
     text-align: center;
-    margin-top: 28px;
-    margin-left: 3rem;
+    margin-top: 18px;
+    margin-left: 0px;
   }
 
 
@@ -2054,17 +2091,56 @@ nav ul li {
 
 
   .response2 {
-    width: 80%;
+    text-align: center;
   }
 
   .response3 {
-    width: 80%;
+    text-align: center;
   }
 
+  .percent2 {
+    margin-top: 15px;
+  }
+
+  .test2part2 {
+    margin-top: 15px;
+    width: 100%;
+    color: white;
+    text-align: left;
+    margin-left: 4.5rem;
+    margin-bottom: -18px;
+  }
+
+  .percent3 {
+    margin-top: 15px;
+  }
+
+  .test2part4 {
+    margin-top: 15px;
+    width: 100%;
+    color: white;
+    text-align: left;
+    margin-left: 4.5rem;
+    margin-bottom: 0px;
+  }
 
   /* Test 3 */
 
+  .textinbox4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .test3part1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .test3part2 {
+    text-align: center;
+    margin-top: 18px;
+    margin-left: 0px;
+  }
 
 
 }
@@ -2122,13 +2198,16 @@ nav ul li {
 
 /* Test 1 */
 
+  .test1part1 {
+    display: block;
+  }
 
-  .letter {
-    color: white;
+  .textinbox1 {
+    margin-left: 0px;
   }
 
   .test1row {
-    margin-right: 41px;
+    padding-right: 20px;
   }
 
   .bigcircle2img {
@@ -2142,19 +2221,18 @@ nav ul li {
 
   .blackdiag {
     display: block;
-    margin-top: 59rem;
+    margin-top: 50rem;
     width: 110vw;
+    margin-left: -40px;
   }
 
   .test1part1 {
-    width: 100%;
     text-align: left;
     margin-top: 15px;
     margin-left: 0px;
   }
 
   .test1part2 {
-    width: 93%;
     text-align: left;
     margin-left: 0px;
     margin-right: -10px;
@@ -2167,15 +2245,15 @@ nav ul li {
 
 
   .test2 {
-    margin-top: -12rem;
+    margin-top: -5rem;
     position: static;
     z-index: 3;
     color: white;
   }
 
   .test2row {
-    margin-right: 31px;
     margin-bottom: 0px;
+    padding-right: 20px;
   }
 
   .gradimg2 {
@@ -2184,12 +2262,21 @@ nav ul li {
 
   .textblock2 {
     background: none;
-    margin-top: -4rem;
+    flex-wrap: wrap; */
+    /* background-color: black; */
+    /* width: 100%; */
+    /* border-radius: 18px; */
+    padding-bottom: 2rem;
+    /* margin-bottom: 1rem; */
   }
 
   .textblock3 {
     background: none;
     margin-top: -4rem;
+    display: block;
+    /* background-color: black; */
+    /* width: 100%; */
+    /* border-radius: 18px; */
   }
 
   .test2part1 {
@@ -2201,17 +2288,9 @@ nav ul li {
 
   .test2part2 {
     width: 100%;
-    text-align: left;
     margin-left: 0px;
     margin-right: -10px;
-  }
-
-  .response2 {
-    width: 93%;
-  }
-
-  .response3 {
-    width: 93%;
+    margin-bottom: 10px;
   }
 
   .test2part3 {
@@ -2230,11 +2309,11 @@ nav ul li {
 
   .blackdiag2 {
     display: block;
-    width: 110vw;
-    margin-left: -41px;
+    width: 106vw;
+    margin-left: -20px;
     position: static;
     z-index: -1;
-    margin-top: -125rem;
+    margin-top: -94rem;
   }
 
   .letter4 {
@@ -2245,13 +2324,37 @@ nav ul li {
     margin-top: 30rem;
   }
 
+  .response2 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .response3 {
+    width: 100%;
+    text-align: left;
+  }
+
+
 
   /* Test 3 */
 
 
 
   .test3 {
-    margin-top: 40rem;
+    margin-top: 38rem;
+  }
+
+  .test3part1 {
+    display: block;
+  }
+
+  .textinbox4 {
+    margin-left: 0px;
+  }
+
+  .cell  {
+    width: 100%;
+    padding-right: 0px;
   }
 
   .response4 {
@@ -2260,16 +2363,16 @@ nav ul li {
   }
 
   .test3row {
-    margin-right: -41px;
+    padding-right: 20px;
   }
 
   .blackdiag3 {
     display: block;
     width: 100vw;
-    margin-left: -41px;
+    margin-left: -40px;
     position: absolute;
     z-index: -1;
-    margin-top: -54rem;
+    margin-top: -51rem;
   }
 
   .textblock4 {
@@ -2307,23 +2410,30 @@ nav ul li {
 
   .mock2 {
     margin-top: 20rem;
+    margin-left: -20px;
+  }
+
+  .mock2t {
+    margin-left: -20px;
   }
 
   .mocktype {
     margin-top: 6rem;
+    margin-left: -20px;
   }
 
   .mocktype2 {
     margin-top: 6rem;
+    margin-left: -20px;
   }
 
   .mockups1-2 {
-    width: 86%;
+    width: 95%;
     margin-top: 6rem;
   }
 
   .mockups2-2 {
-    width: 86%;
+    width: 95%;
     margin-top: 6rem;
   }
 
@@ -2361,24 +2471,23 @@ nav ul li {
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.7;
     font-weight: 200;
     margin-top: 5.2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   h3 {
     font-size: 2.4rem;
     letter-spacing: 10px;
-    width: 98%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     color: black;
     text-align: center;
     margin-top: 10.6rem;
-    margin-bottom: 10.4rem;
+    margin-bottom: 8.4rem;
     line-height: 56px;
-    margin-left: -13px;
   }
 
   h4 {
@@ -2386,14 +2495,13 @@ nav ul li {
     font-weight: 100;
     font-style: italic;
     margin-top: 5.4rem;
-    margin-bottom: 5.4rem;
+    margin-bottom: 2.4rem;
   }
 
   p {
     font-size: 16px;
-    width: 84%;
-    line-height: 31px;
-    margin-right: -71px;
+    width: 90%;
+    line-height: 1.5;
   }
 
 
@@ -2526,16 +2634,9 @@ font-size: 22px;
     /* Big white section phone edit */
 
 
-
-    #part1 {
-      margin-left: 41px;
-      margin: right 41px;
-    }
-
     .dl {
       display: block;
       border: .5px solid black;
-      width: 85%;
       transform: rotate(-25deg);
       margin-top: 10rem;
     }
@@ -2548,14 +2649,15 @@ font-size: 22px;
 
     /* User surveys phone edit */
 
+    .survey1 {
+      margin-top: 0px;
+    }
 
-
-    .surveytext {
-      width: 84%;
+    .surveyrow {
+      margin-left: 20px;
     }
 
     .surveytext2 {
-      width: 84%;
       margin-top: 30px;
     }
 
@@ -2566,7 +2668,6 @@ font-size: 22px;
     .surveyphone {
       display: inline;
       width: 90%;
-      margin-top: 53px;
     }
 
     .keytakeaways {
@@ -2585,7 +2686,7 @@ font-size: 22px;
       margin-right: -41px;
     }
 
-    .compimg {
+    .compimgsm {
       display: none;
     }
 
@@ -2593,9 +2694,9 @@ font-size: 22px;
       display: block;
       position: static;
       z-index: 1;
-      width: 100vw;
-      margin-top: -143px;
-      margin-left: -41px;
+      width: 101vw;
+      margin-top: -103px;
+      margin-left: -20px;
     }
 
     .compbutton {
@@ -2609,7 +2710,7 @@ font-size: 22px;
       text-align: center;
       margin-top: -8.5rem;
       padding-bottom: 100px;
-      margin-left: -41px;
+      margin-left: -20px;
     }
 
 
@@ -2618,7 +2719,7 @@ font-size: 22px;
 
 
 
-    .persimg {
+    .smuserpers {
       display: none;
     }
 
@@ -2629,7 +2730,7 @@ font-size: 22px;
     .persphone img {
       margin-top: 53px;
       width: 100vw;
-      margin-left: -41px;
+      margin-left: -20px;
     }
 
     .up1 {
@@ -2646,9 +2747,13 @@ font-size: 22px;
       margin-top: 23px;
     }
 
+    .gf {
+      margin-left: 20px;
+    }
 
 
     /* User Stories & Flows phone edit */
+
 
 
 
@@ -2673,7 +2778,7 @@ font-size: 22px;
       justify-content: flex-start;
       margin-top: -10rem;
       padding-bottom: 10px;
-      margin-left: 0px;
+      margin-left: 20px;
     }
 
     .userbutton {
@@ -2685,7 +2790,7 @@ font-size: 22px;
       text-align: left;
       justify-content: flex-start;
       padding-bottom: 50px;
-      margin-left: 0px;
+      margin-left: 20px;
     }
 
 
@@ -2695,15 +2800,18 @@ font-size: 22px;
 
 
     .wirerow1 {
-      margin-right: 41px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
     .wirerow2 {
-      margin-right: 41px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
     .wirerow3 {
-      margin-right: 41px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
     .wirecolumn img {
@@ -2742,10 +2850,10 @@ font-size: 22px;
     .pbranding {
       display: block;
       width: 101vw;
-      margin-left: -42px;
+      margin-left: -21px;
       position: static;
       z-index: -1;
-      margin-top: -52rem;
+      margin-top: -48rem;
     }
 
     .styletitle1 {
@@ -2760,7 +2868,6 @@ font-size: 22px;
       color: white;
       position: relative;
       z-index: 1;
-      width: 80%;
     }
 
     .desktopbranding {
@@ -2778,22 +2885,21 @@ font-size: 22px;
     }
 
     .ptest {
-      width: 85%;
+      width: 95%;
     }
 
     .pcolors {
-      width: 85%;
+      width: 95%;
     }
 
     .pcolors2 {
-      width: 90%;
+      width: 95%;
       margin-top: 5rem;
     }
 
     .plogostyle {
-      width: 90%;
+      width: 95%;
     }
-
 
 
     /* Hifi Mockups Round 1: phone edit */
@@ -2802,12 +2908,24 @@ font-size: 22px;
     .hifirow2 {
       margin-bottom: 61px;
       margin-top: 0px;
+      padding-right: 20px;
+    }
+
+    .hifirow1 {
+      padding-right: 20px;
     }
 
 
 
     /* Prototyping phone edit */
 
+    .proto2 {
+      margin-left: -20px;
+    }
+
+    .mtype {
+      margin-left: -20px;
+    }
 
 
     .prototype {
@@ -2826,6 +2944,11 @@ font-size: 22px;
       margin-bottom: 0rem;
     }
 
+    .addpad2 {
+      margin-left: 20px;
+      margin-right: 0px;
+    }
+
 
 
     /* Conclusion */
@@ -2840,6 +2963,7 @@ font-size: 22px;
       color: white;
       padding-top: 4rem;
       margin-bottom: 0px;
+      margin-left: -20px;
     }
 
     .movefinaltype {
@@ -2851,6 +2975,8 @@ font-size: 22px;
       margin-top: 6rem;
       padding-bottom: 7rem;
       width: 80%;
+      letter-spacing: 0px;
+      font-size: 16px;
     }
 
     .top {
@@ -2917,15 +3043,6 @@ font-size: 22px;
 
   /* Test 2 */
 
-
-  .blackdiag2 {
-    margin-top: -115rem;
-  }
-
-  .letter4 {
-    color: black;
-  }
-
   .abouttest2 {
     margin-top: 10rem;
   }
@@ -2936,15 +3053,5 @@ font-size: 22px;
 
   .mock2 {
     margin-top: 10rem;
-  }
-}
-
-
-
-
-@media only screen and (min-width: 320px) and (max-width: 405px) {
-
-  .letter {
-    color: black;
   }
 }
