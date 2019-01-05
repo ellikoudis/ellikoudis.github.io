@@ -2315,7 +2315,7 @@ padding-left: 30px;
     margin-left: -20px;
     position: static;
     z-index: -1;
-    margin-top: -116rem;
+    margin-top: -109rem;
   }
 
   .letter4 {
@@ -2323,7 +2323,7 @@ padding-left: 30px;
   }
 
   .abouttest2 {
-    margin-top: 30rem;
+    margin-top: 10rem;
   }
 
   .response2 {
@@ -2343,7 +2343,7 @@ padding-left: 30px;
 
 
   .test3 {
-    margin-top: 35rem;
+    margin-top: 26rem;
   }
 
   .test3part1 {
@@ -2958,7 +2958,6 @@ font-size: 22px;
 
 
     .finalsection {
-      margin-left: 41px;
     }
 
     .conctitle {
@@ -2968,15 +2967,10 @@ font-size: 22px;
       margin-left: -20px;
     }
 
-    .movefinaltype {
-      display: block;
-      margin-left: 13px;
-    }
-
     .finaltype {
       margin-top: 6rem;
       padding-bottom: 7rem;
-      width: 80%;
+      width: 70%;
       letter-spacing: 0px;
       font-size: 16px;
     }
