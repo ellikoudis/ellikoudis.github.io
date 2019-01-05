@@ -2315,7 +2315,7 @@ padding-left: 30px;
     margin-left: -20px;
     position: static;
     z-index: -1;
-    margin-top: -94rem;
+    margin-top: -116rem;
   }
 
   .letter4 {
@@ -2343,7 +2343,7 @@ padding-left: 30px;
 
 
   .test3 {
-    margin-top: 38rem;
+    margin-top: 35rem;
   }
 
   .test3part1 {
@@ -2374,7 +2374,7 @@ padding-left: 30px;
     margin-left: -40px;
     position: absolute;
     z-index: -1;
-    margin-top: -51rem;
+    margin-top: -60rem;
   }
 
   .textblock4 {
@@ -2855,7 +2855,7 @@ font-size: 22px;
       margin-left: -21px;
       position: static;
       z-index: -1;
-      margin-top: -48rem;
+      margin-top: -43rem;
     }
 
     .styletitle1 {
@@ -3049,6 +3049,17 @@ font-size: 22px;
     margin-top: 10rem;
   }
 
+  .blackdiag2 {
+    margin-top: -94rem;
+  }
+
+  .test3 {
+    margin-top: 26rem;
+  }
+
+  .blackdiag3 {
+    margin-top: -51rem;
+  }
 
   /* Mockups */
 
