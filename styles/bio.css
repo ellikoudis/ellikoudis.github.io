@@ -175,10 +175,11 @@ a:link {
     font-style: italic;
     font-weight: 400;
     line-height: 1.5;
+    color: #c59cff;
   }
 
    h4 {
-    border-left: 1px solid #ffffff;
+    border-left: 1px solid #c59cff;
     padding-left: 20px;
     margin-bottom: 3rem;
     width: 70%;
@@ -535,7 +536,7 @@ a:link {
   h1 {
     font-size: 45px;
     letter-spacing: 30px;
-    line-height: 8rem;
+    line-height: 1.5;
     margin-bottom: 55px;
   }
 
