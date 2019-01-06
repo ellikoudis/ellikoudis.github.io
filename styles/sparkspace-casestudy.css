@@ -2183,6 +2183,7 @@ padding-left: 30px;
 
   .test1row {
     padding-right: 20px;
+    margin-bottom: 5rem;
   }
 
   .bigcircle2img {
@@ -2192,7 +2193,7 @@ padding-left: 30px;
   .textblock {
     background: black;
     margin-top: -32rem;
-    padding-top: 29rem;
+    padding-top: 30rem;
     z-index: -1;
     width: 100vw;
     margin-left: -40px;
@@ -2228,6 +2229,7 @@ padding-left: 30px;
 
   .test2 {
     color: black;
+    margin-top: 0px;
   }
 
   .test2row {
@@ -2314,10 +2316,6 @@ padding-left: 30px;
     margin-top: -109rem;
   }
 
-  .abouttest2 {
-    margin-top: 10rem;
-  }
-
   .response2 {
     text-align: left;
   }
@@ -2331,6 +2329,9 @@ padding-left: 30px;
 
   /* Test 3 */
 
+  .test3 {
+    margin-top: 0px;
+  }
 
   .test3part1 {
     display: block;
@@ -2394,7 +2395,6 @@ padding-left: 30px;
   }
 
   .mock2 {
-    margin-top: 12rem;
     margin-left: -20px;
   }
 
