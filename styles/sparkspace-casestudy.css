@@ -970,43 +970,21 @@ padding-left: 30px;
   margin-bottom: 4rem;
 }
 
-.preftest1 {
-  }
-
 .bigcircle2img {
   margin-top: 2rem;
   width: 100%;
   max-width: 1200px;
   margin-left: -20px;
-  position: static;
-  z-index: 0;
-}
-
-.preference1 {
-  width: 100vw;
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  display: -webkit-box;
-  display: flex;
-  align-items: flex-start;
+  position: absolute;
+  z-index: -1;
 }
 
 .test1row {
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   display: -webkit-box;
   display: flex;
   z-index: 1;
-  align-items: flex-start;
-  position: absolute;
   margin-bottom: 10rem;
-  margin-right: 20px;
 }
 
 .test1column1 {
@@ -1970,11 +1948,6 @@ padding-left: 30px;
 
     /* Test 2 */
 
-
-    .test2 {
-      margin-top: 122rem;
-    }
-
     .response2 {
       width: 85%;
     }
@@ -2217,20 +2190,22 @@ padding-left: 30px;
   }
 
   .textblock {
-    background: none;
-    margin-top: 20px;
-  }
-
-  .blackdiag {
-    display: block;
-    margin-top: 50rem;
-    width: 110vw;
+    background: black;
+    margin-top: -32rem;
+    padding-top: 29rem;
+    z-index: -1;
+    width: 100vw;
     margin-left: -40px;
+    margin-right: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 0px;
+    clip-path: polygon(-200% 100%, 100% 100%, 100% 0%);
   }
 
   .test1part1 {
     text-align: left;
-    margin-top: 15px;
+    margin-top: 42px;
     margin-left: 0px;
   }
 
@@ -2238,6 +2213,11 @@ padding-left: 30px;
     text-align: left;
     margin-left: 0px;
     margin-right: -10px;
+    margin-bottom: 20px;
+  }
+
+  .response1{
+    margin-bottom: 32px;
   }
 
 
@@ -2247,10 +2227,7 @@ padding-left: 30px;
 
 
   .test2 {
-    margin-top: -5rem;
-    position: static;
-    z-index: 3;
-    color: white;
+    color: black;
   }
 
   .test2row {
@@ -2263,23 +2240,42 @@ padding-left: 30px;
   }
 
   .textblock2 {
-    background: none;
     flex-wrap: wrap; */
-    /* background-color: black; */
-    /* width: 100%; */
-    /* border-radius: 18px; */
-    padding-bottom: 2rem;
-    /* margin-bottom: 1rem; */
-  }
+      padding-bottom: 2rem;
+      background: black;
+      padding-top: 29rem;
+      margin-top: -265px;
+      z-index: -1;
+      position: relative;
+      width: 100vw;
+      margin-left: -40px;
+      margin-right: -40px;
+      padding-left: 40px;
+      padding-right: 40px;
+      border-radius: 0px;
+      clip-path: polygon(-200% 100%, 100% 100%, 100% 0%);
+    }
 
   .textblock3 {
-    background: none;
-    margin-top: -4rem;
-    display: block;
-    /* background-color: black; */
-    /* width: 100%; */
-    /* border-radius: 18px; */
-  }
+    flex-wrap: wrap;
+      padding-bottom: 2rem;
+      background: black;
+      padding-top: 24rem;
+      position: relative;
+      z-index: -2;
+      width: 100vw;
+      margin-left: -40px;
+      margin-top: -265px;
+      margin-right: -40px;
+      padding-left: 40px;
+      padding-right: 40px;
+      border-radius: 0px;
+      clip-path: polygon(-200% 100%, 100% 100%, 100% 0%);
+    }
+
+    .textinbox3 {
+      margin-bottom: 0px;
+    }
 
   .test2part1 {
     width: 100%;
@@ -2318,22 +2314,17 @@ padding-left: 30px;
     margin-top: -109rem;
   }
 
-  .letter4 {
-    color: white;
-  }
-
   .abouttest2 {
     margin-top: 10rem;
   }
 
   .response2 {
-    width: 100%;
     text-align: left;
   }
 
   .response3 {
-    width: 100%;
     text-align: left;
+    margin-bottom: 42px;
   }
 
 
@@ -2341,17 +2332,13 @@ padding-left: 30px;
   /* Test 3 */
 
 
-
-  .test3 {
-    margin-top: 26rem;
-  }
-
   .test3part1 {
     display: block;
   }
 
   .textinbox4 {
     margin-left: 0px;
+    margin-top: 42px;
   }
 
   .cell  {
@@ -2359,27 +2346,22 @@ padding-left: 30px;
     padding-right: 0px;
   }
 
-  .response4 {
-    width: 75%;
-    margin-bottom: 2rem;
-  }
-
   .test3row {
     padding-right: 20px;
   }
 
-  .blackdiag3 {
-    display: block;
+  .textblock4 {
+    background: black;
+    margin-top: -33rem;
+    padding-top: 29rem;
+    z-index: -1;
     width: 100vw;
     margin-left: -40px;
-    position: absolute;
-    z-index: -1;
-    margin-top: -60rem;
-  }
-
-  .textblock4 {
-    background: none;
-    margin-top: -4rem;
+    margin-right: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 0px;
+    clip-path: polygon(-200% 100%, 100% 100%, 100% 0%);
   }
 
   .test3part1 {
@@ -2398,6 +2380,7 @@ padding-left: 30px;
 
   .response4 {
     width: 93%;
+    margin-bottom: 42px;
   }
 
 
@@ -2411,7 +2394,7 @@ padding-left: 30px;
   }
 
   .mock2 {
-    margin-top: 20rem;
+    margin-top: 12rem;
     margin-left: -20px;
   }
 
@@ -2697,7 +2680,7 @@ font-size: 22px;
       position: static;
       z-index: 1;
       width: 101vw;
-      margin-top: -103px;
+      margin-top: -42px;
       margin-left: -20px;
     }
 
@@ -2710,7 +2693,7 @@ font-size: 22px;
 
     .button2 {
       text-align: center;
-      margin-top: -8.5rem;
+      margin-top: -9rem;
       padding-bottom: 100px;
       margin-left: 0px;
     }
@@ -3030,52 +3013,4 @@ font-size: 22px;
       height: 31px;
       padding-left: 10px;
     }
-}
-
-
-@media only screen and (max-width: 450px) {
-
-  .blackdiag2 {
-    margin-top: -108rem;
-  }
-
-  .abouttest2 {
-    margin-top: 15rem;
-  }
-
-  .test3 {
-    margin-top: 32rem;
-  }
-}
-
-
-
-@media only screen and (min-width: 320px) and (max-width: 400px) {
-
-
-  /* Test 2 */
-
-  .abouttest2 {
-    margin-top: 12rem;
-  }
-
-  .blackdiag2 {
-    width: 120vw;
-    margin-top: -108rem;
-  }
-
-  .test3 {
-    margin-top: 35rem;
-  }
-
-  .blackdiag3 {
-    margin-top: -51rem;
-  }
-
-  /* Mockups */
-
-
-  .mock2 {
-    margin-top: 10rem;
-  }
 }
