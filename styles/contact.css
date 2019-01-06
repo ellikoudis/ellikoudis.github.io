@@ -47,7 +47,7 @@ h2 {
 p {
   line-height: 1.6;
   font-size: 1.7rem;
-  font-weight: 200;
+  font-weight: 300;
   width: 120%;
   max-width: 420px;
   margin-bottom: 5rem;
@@ -591,11 +591,11 @@ p {
 
     p {
       width: 100%;
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       margin-bottom: 3rem;
       text-align: left;
       text-align: left;
-      line-height: 35px;
+      line-height: 1.6;
     }
 
     .specialfont {
