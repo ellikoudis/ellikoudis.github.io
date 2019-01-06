@@ -2447,6 +2447,7 @@ padding-left: 30px;
   .button7 {
     margin-top: 8rem;
     margin-bottom: 8rem;
+    margin-left: 0px;
   }
 }
 
@@ -2711,7 +2712,7 @@ font-size: 22px;
       text-align: center;
       margin-top: -8.5rem;
       padding-bottom: 100px;
-      margin-left: -20px;
+      margin-left: 0px;
     }
 
 
@@ -2775,11 +2776,9 @@ font-size: 22px;
     }
 
     .button3 {
-      text-align: left;
-      justify-content: flex-start;
       margin-top: -10rem;
       padding-bottom: 10px;
-      margin-left: 20px;
+      margin-left: 0px;
     }
 
     .userbutton {
@@ -2788,10 +2787,8 @@ font-size: 22px;
     }
 
     .button4 {
-      text-align: left;
-      justify-content: flex-start;
       padding-bottom: 50px;
-      margin-left: 20px;
+      margin-left: 0px;
     }
 
 
@@ -2826,6 +2823,7 @@ font-size: 22px;
 
     .button5 {
       padding-bottom: 50px;
+      margin-left: 0px;
     }
 
 
@@ -2876,9 +2874,13 @@ font-size: 22px;
     }
 
     .brandingbutton6 {
-      font-size: 15px;
       letter-spacing: 8px;
-      font-weight: 200;
+      font-weight: 300;
+      font-size: 12px;
+    }
+
+    .button6 {
+      margin-left: 0px;
     }
 
     .phonebranding {
@@ -2938,11 +2940,12 @@ font-size: 22px;
 
     .protobutton {
       letter-spacing: 8px;
-      font-weight: 400;
+      font-weight: 300;
     }
 
     .button8 {
       margin-bottom: 0rem;
+      margin-left: -5px;
     }
 
     .addpad2 {
@@ -2981,6 +2984,7 @@ font-size: 22px;
 
     .totop {
       margin-bottom: 0rem;
+      margin-left: 10px;
     }
 
 

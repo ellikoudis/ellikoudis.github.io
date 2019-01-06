@@ -646,7 +646,7 @@ a:link {
   }
 
   .specialfont {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-style: italic;
   }
 
@@ -654,14 +654,14 @@ a:link {
     display: block;
     border: .5px solid white;
     width: 80%;
-    transform: rotate(25deg);
+    transform: rotate(-25deg);
     margin-top: 10rem;
     margin-bottom: 10rem;
     margin-left: 41px;
   }
 
   .contactme {
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 8px;
     font-weight: 300;
   }
