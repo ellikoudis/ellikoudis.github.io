@@ -167,7 +167,7 @@ a:link {
 
 p {
   line-height: 3.5rem;
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   font-weight: 200;
   max-width: 500px;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;}
@@ -175,7 +175,7 @@ p {
 .specialfont {
   font-style: italic;
   color: #c59cff;
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-weight: 400;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -718,13 +718,13 @@ p {
       text-align: center;
       letter-spacing: 25px;
       margin-top: 7rem;
-      margin-bottom: 4rem;
+      margin-bottom: 0rem;
       padding-right: 0px;
       font-size: 50px;
     }
 
     p {
-      line-height: 31px;
+      line-height: 1.5;
       font-size: 1.5rem;
       font-weight: normal;
       width: auto;
@@ -758,7 +758,7 @@ p {
     }
 
     .specialfont {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #ffabf3;
     }
 

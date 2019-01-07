@@ -41,6 +41,7 @@ h2 {
   margin-bottom: 1.4rem;
   letter-spacing: 8px;
   line-height: 60px;
+  color: #c59cff;
 }
 
 h3 {
@@ -51,8 +52,8 @@ h3 {
   font-weight: 100;
   color: black;
   text-align: center;
-  margin-top: 9.5rem;
-  margin-bottom: 12.5rem;
+  margin-top: 12.5rem;
+  margin-bottom: 9.5rem;
   line-height: 92px;
 }
 
@@ -414,6 +415,18 @@ padding-left: 30px;
 
 .keytakeaways {
   margin-top: 118px;
+}
+
+.takeaways li{
+  color: black;
+  list-style: circle;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  padding-bottom: 12px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: left;
 }
 
 .surveyimg {
@@ -1019,9 +1032,11 @@ padding-left: 30px;
   position: relative;
   display: flex;
   background-color: black;
-  width: 75%;
+  width: 100%;
   border-radius: 18px;
   margin-top: 5rem;
+  margin: auto;
+  max-width: 500px;
 }
 
 .textinbox1 {
@@ -1055,11 +1070,6 @@ padding-left: 30px;
   margin-top: 10px;
 
 }
-
-.blackdiag {
-  display: none;
-}
-
 
 
 /* Test 2 */
@@ -1241,9 +1251,10 @@ padding-left: 30px;
   position: relative;
   display: flex;
   background-color: black;
-  width: 75%;
+  width: 100%;
   border-radius: 18px;
-  margin-top: 5rem;
+  margin: 20px auto;
+  max-width: 500px;
 }
 
 .textinbox4 {
@@ -1339,7 +1350,7 @@ padding-left: 30px;
 .prototype {
   width: 100vw;
   margin-left: -20px;
-  margin-bottom: -10rem;
+  margin-bottom: -15rem;
   border-top: 2px solid #62edf2;
   border-bottom: 2px solid #62edf2;
 }

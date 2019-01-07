@@ -172,12 +172,19 @@ a:link {
   }
 
   .specialfont {
-    font-size: 2.3rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: #c59cff;
+  }
+
+  .specialfont2 {
     font-style: italic;
     font-weight: 400;
+    font-size: 2.2rem;
     line-height: 1.5;
     color: #ffffff;
   }
+
 
    h4 {
     border-left: 1px solid #c59cff;
@@ -648,7 +655,7 @@ a:link {
   }
 
   .specialfont {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
   }
 
