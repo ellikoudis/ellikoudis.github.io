@@ -2164,11 +2164,7 @@ padding-left: 30px;
 
 
 
-/* Edits under 480px */
-
-
-
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
 
 /* Test 1 */
@@ -2330,7 +2326,7 @@ padding-left: 30px;
   /* Test 3 */
 
   .test3 {
-    margin-top: 0px;
+    margin-top: 6rem;
   }
 
   .test3part1 {
@@ -2432,18 +2428,6 @@ padding-left: 30px;
     margin-bottom: 8rem;
     margin-left: 0px;
   }
-}
-
-
-
-  /* Phone edits */
-
-
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-
-
-/* set basics phone edit */
 
 
 
@@ -2468,7 +2452,7 @@ padding-left: 30px;
     font-size: 2.4rem;
     letter-spacing: 10px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     color: black;
     text-align: center;
     margin-top: 10.6rem;
@@ -2478,7 +2462,7 @@ padding-left: 30px;
 
   h4 {
     font-size: 1.9rem;
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
     margin-top: 5.4rem;
     margin-bottom: 2.4rem;
@@ -2916,7 +2900,6 @@ font-size: 22px;
 
     .prototype {
       width: 100vw;
-      margin-left: -41px;
       margin-top: 5rem;
       margin-bottom: -11rem;
     }
