@@ -338,7 +338,7 @@ p {
   position: relative;
   display: block;
   margin: auto auto 0 0;
-  max-width: 360px;
+  width: 60%;
   border-radius: 90%;
   color: #ffffff;
   padding: 60px 0px 100px 100px;
@@ -366,6 +366,7 @@ p {
   margin-bottom: 50px;
   font-weight: 300;
   line-height: 2.5rem;
+  width: 70%;
 }
 
 .amigobutton {
@@ -387,8 +388,8 @@ p {
   content:"";
   display: block;
   position: absolute;
-  right: -220;
-  bottom: -200;
+  right: -20rem;
+  bottom: -20rem;
   width: 65rem;
   height: 62rem;
   border-radius: 90%;
@@ -926,7 +927,7 @@ p {
       font-family: 'San Francisco Display Light', sans-serif;
       font-weight: 400px;
       margin-bottom: 30px;
-      max-width: 90%;
+      max-width: 44%;
       line-height: 2rem;
     }
 
@@ -943,15 +944,16 @@ p {
       border-radius: 90%;
       color: #ffffff;
       z-index: 2;
-      padding-right: 76px;
+      right: 23rem;
+      bottom: 18px;
     }
 
 
     .ball{
       width: 50rem;
       height: 50rem;
-      bottom: -160;
-      right: -185;
+      bottom: -18rem;
+      right: -19rem;
     }
 
 
