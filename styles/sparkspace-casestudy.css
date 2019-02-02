@@ -439,6 +439,12 @@ padding-left: 30px;
   display: none;
 }
 
+.movephone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* Competitive Analysis */
 
@@ -807,10 +813,22 @@ padding-left: 30px;
   padding-left: 20px;
 }
 
+.movecolors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .colors{
   max-width: 800px;
   width: 80%;
   height: auto;
+}
+
+.movefonts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fonts{
@@ -2017,9 +2035,13 @@ padding-left: 30px;
     }
 
 
-    /* Mockups */
+    /* Mockups round 2*/
 
-
+    .movemock2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
     .mockups1-2 {
       display: block;
