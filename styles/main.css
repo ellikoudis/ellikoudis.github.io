@@ -304,6 +304,108 @@ p {
   z-index: 1;
 }
 
+
+
+
+/* Amigo */
+
+.amigo-wrapper {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(-0.60turn, #b70042 0%, #570046 29%, #3e0043 56%, #1f0040 65%, #000000 100%);
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+}
+
+.moveamigoimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.amigoimg {
+  width: 80%;
+}
+
+.amigoimgp {
+  display: none;
+}
+
+
+.amigo {
+  position: relative;
+  display: block;
+  margin: auto auto 0 0;
+  max-width: 350px;
+  border-radius: 90%;
+  color: #ffffff;
+  padding: 60px 0px 100px 100px;
+  z-index: 2;
+}
+
+.info2 {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.amigoabout {
+  text-align: right;
+}
+
+.amigologo {
+  width: 100%;
+  max-width: 12rem;
+  margin-bottom: 40px;
+}
+
+.amigo h2 {
+  margin-bottom: 50px;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.amigobutton {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 8px;
+  padding-left: 4px;
+}
+
+.amigobutton:hover {
+  color: #ffabf3;
+  transition: color 0.3s linear;
+  border-bottom: 1px solid #ffabf3;
+}
+
+.ball {
+  content:"";
+  display: block;
+  position: absolute;
+  right: -24rem;
+  top: 20rem;
+  width: 65rem;
+  height: 62rem;
+  border-radius: 90%;
+  background-color: #0000aa;
+  background-image: -webkit-linear-gradient(45deg, #0000aa 0%, #df0052 70%, #ff0026 100%);
+  background-image: -moz-linear-gradient(45deg, #0000aa 0%, #df0052 70%, #ff0026 100%);
+  background-image: -o-linear-gradient(45deg, #0000aa 0%, #df0052 70%, #ff0026 100%);
+  background-image: linear-gradient(45deg, #0000aa 0%, #df0052 70%, #ff0026 100%);
+  z-index: 1;
+}
+
+
+
 /* Gallery */
 
 
@@ -611,6 +713,11 @@ p {
       display: block;
       width: 60px;
     }
+
+
+    .moveamigoimg{
+      margin-top: -100px;:
+    }
   }
 
 
@@ -796,6 +903,62 @@ p {
     .sparkspace-wrapper:before{
       width: 50rem;
       height: 50rem;
+    }
+
+
+
+
+    /* Amigo Section */
+
+    .moveamigoimg {
+      margin-top: -120px;
+    }
+
+    .amigoimg{
+      width: 100%;
+    }
+
+
+    .amigologo {
+      width: 8rem;
+      z-index: 2;
+      margin-bottom: 30px;
+    }
+
+    .amigo h2 {
+      color: white;
+      font-size: 14px;
+      font-family: 'San Francisco Display Light', sans-serif;
+      font-weight: 400px;
+      margin-bottom: 30px;
+      max-width: 65%;
+      line-height: 2rem;
+    }
+
+    .amigobutton {
+      font-weight: 400;
+      letter-spacing: 4px;
+    }
+
+    .amigo {
+      position: relative;
+      display: block;
+      margin: auto auto 0 0;
+      /* max-width: 50rem; */
+      width: 55%;
+      border-radius: 90%;
+      color: #ffffff;
+      padding: 57px 0px 89px 0px;
+      /* margin-left: -80; */
+      z-index: 2;
+    }
+
+
+    .ball{
+      width: 50rem;
+      height: 50rem;
+      top: 308;
+      right: -185;
     }
 
 

@@ -1764,6 +1764,42 @@ margin-top: 70px;
 
 
 
+    @media only screen and (max-width: 820px) {
+
+
+
+    /* ROLES / DELIVERABLES / DURATION / TOOLS */
+
+
+      .column {
+        width: 50%;
+      }
+
+      .row {
+        margin-right: 71px;
+      }
+
+      .titlelist2 {
+        margin-left: 0px;
+      }
+
+      .list2 {
+        margin-left: 0px;
+      }
+
+      .column li {
+        font-size: 18px;
+      }
+
+      .vl {
+        margin-left: 34%;
+        max-height: 860px;
+        min-height: 800px;
+      }
+
+      .vl2 {
+        display: none;
+      }
 
 
 
