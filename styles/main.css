@@ -330,7 +330,7 @@ p {
 }
 
 .amigoimg {
-  width: 80%;
+  width: 100%;
 }
 
 .amigoimgp {
@@ -918,7 +918,6 @@ p {
       width: 100%;
     }
 
-
     .amigologo {
       width: 8rem;
       z-index: 2;
@@ -944,12 +943,10 @@ p {
       position: relative;
       display: block;
       margin: auto auto 0 0;
-      /* max-width: 50rem; */
       width: 55%;
       border-radius: 90%;
       color: #ffffff;
       padding: 57px 0px 89px 0px;
-      /* margin-left: -80; */
       z-index: 2;
     }
 
