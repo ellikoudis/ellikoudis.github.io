@@ -3,7 +3,7 @@
   margin: 0;
   outline: 0;
   box-sizing: border-box;
-} 
+}
 
 html {
   font-size: 10px;
@@ -906,7 +906,7 @@ h2 {
   color: white;
   letter-spacing: 6px;
   width: 100%;
-  margin-top: 22px;
+  margin-top: 35px;
   margin-bottom: 22px;
   margin-left: 19px;
 }
@@ -928,7 +928,7 @@ h3 {
   font-size: 14.5px;
   font-weight: 100;
   width: 80%;
-  margin-bottom: 74px;
+  margin-bottom: 45px;
   margin-left: 19px;
   letter-spacing: 1.5px;
   color: grey;
