@@ -742,6 +742,8 @@ h1 {
   flex-flow: row wrap;
   display: flex;
   justify-content: center;
+  align-content: center;
+  width: 100%;
 }
 
 .visualtitle {
