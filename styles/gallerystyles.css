@@ -346,6 +346,11 @@ nav ul li {
   display: block;
 }
 
+.likou-open {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 
 /* Modals */
 
