@@ -329,6 +329,24 @@ nav ul li {
   display: block;
 }
 
+.imagerow8 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.cell8  {
+  width: 50%;
+}
+
+.cell8 img {
+  max-width: 100%;
+  display: block;
+}
+
+
 /* Modals */
 
   #ex1 {
