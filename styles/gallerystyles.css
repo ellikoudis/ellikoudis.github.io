@@ -346,14 +346,6 @@ nav ul li {
   display: block;
 }
 
-.likou-open {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-
 /* Modals */
 
   #ex1 {
@@ -362,7 +354,7 @@ nav ul li {
   }
 
   .modal img {
-    margin-top: 0px;
+    margin-top: -2px;
     width: 100%;
   }
 
