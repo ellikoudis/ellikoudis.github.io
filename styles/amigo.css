@@ -909,6 +909,7 @@ border-bottom: 1px solid #ffabf3;
 
 .mockmove {
 margin-top: 70px;
+margin-left: 6px;
 }
 
 .hifi {
@@ -1027,7 +1028,6 @@ margin-top: 70px;
 .gradimg2 {
   margin-top: 30rem;
   width: 100%;
-  max-width: 1200px;
   margin-left: -20px;
   position: absolute;
   z-index: -1;
