@@ -363,6 +363,24 @@ nav ul li {
   display: block;
 }
 
+.imagerow10 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.cell10  {
+  width: 50%;
+}
+
+.cell10 img {
+  max-width: 100%;
+  display: block;
+}
+
+
 
 
 
