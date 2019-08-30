@@ -227,6 +227,8 @@ nav ul li {
   display: block;
 }
 
+
+
 .imagerow2 {
   z-index: 1;
   position: relative;
@@ -709,6 +711,20 @@ nav ul li {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+
+/* Freeom Reins Small font blurbs */
+
+.webblurb {
+  display: none;
+}
+
+.bookblurb {
+  display: none;
+}
+
+.mood {
+  display: none;
+}
 
   /* Phone Navigation */
 
