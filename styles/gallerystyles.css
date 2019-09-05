@@ -726,6 +726,10 @@ nav ul li {
   display: none;
 }
 
+.renblurb {
+  display: none;
+}
+
   /* Phone Navigation */
 
   #menu {
